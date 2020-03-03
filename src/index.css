@@ -61,3 +61,175 @@ code {
   color: #fff !important;
   border-radius: 0 !important;
 }
+
+.ui.secondary.menu {
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+    0 5px 22px 4px rgba(0, 0, 0, 0.048);
+  position: fixed !important;
+  background: #fff !important;
+  z-index: 100;
+  width: 101%;
+  left: 0;
+  top: 0;
+}
+
+/****** Showcase *******/
+.showcase {
+  background-size: cover !important;
+  height: 100vh;
+}
+.showcase-content {
+  margin-top: 20em;
+}
+.showcase-content-subheading {
+  font-family: BebasNeue;
+  letter-spacing: 0.5px;
+  margin-bottom: -25px;
+  font-size: 40px;
+  color: #ffc425;
+}
+
+.showcase-content-heading {
+  font-family: BebasNeue;
+  letter-spacing: 0.5px;
+  font-size: 80px;
+  color: #fff;
+}
+.showcase-content-heading::after {
+  content: "";
+  border-bottom: 3px solid #ffc425;
+  display: block;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.showcase-content-desc {
+  padding-top: 10px;
+  font-family: Montserrat;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.showcase-content-button {
+  display: flex;
+  margin-top: 50px;
+}
+
+.showcase-content-button-leftcontainer {
+  font-family: BebasNeue;
+  margin-right: 10px;
+}
+.showcase-content-button-leftcontainer a {
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: solid 2px #ffc425;
+  color: #000 !important;
+  background: #ffc425;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.showcase-content-button-rightcontainer {
+  font-family: BebasNeue;
+}
+.showcase-content-button-rightcontainer a {
+  padding: 10px 20px;
+  border: solid 2px #fff;
+  border-radius: 30px;
+  color: #fff !important;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+}
+
+/***** Service ******/
+
+#services_ {
+  margin: 100px 0;
+}
+
+.service-title {
+  font-family: BebasNeue;
+  text-align: left;
+  font-size: 30px;
+}
+.service-title::after {
+  content: "";
+  border-bottom: 3px solid #ffc425;
+  display: block;
+  width: 60%;
+  margin: 10px 0;
+}
+
+.service-desc {
+  margin-top: 10px;
+  font-family: Montserrat;
+  text-align: left;
+  font-size: 14px;
+}
+
+.grid.services-content {
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+    0 5px 22px 4px rgba(0, 0, 0, 0.048);
+  margin: 5px !important;
+  padding: 60px !important;
+  color: #fff;
+  background: #515100;
+}
+
+/***** Customers ******/
+
+#customers_ {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35vh;
+}
+.customers-heading {
+  margin: 150px;
+  font-family: BebasNeue;
+  font-size: 100px;
+  color: #fff;
+}
+
+.customers-card {
+  margin-top: -60px;
+  z-index: 100;
+}
+
+.grid.customers-content {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  padding: 80px 10px !important;
+  margin: 5px !important;
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+    0 5px 22px 4px rgba(0, 0, 0, 0.048);
+  border-radius: 20%;
+  z-index: 100;
+}
+.customers-title {
+  font-family: BebasNeue;
+  text-align: center;
+  font-size: 30px;
+  color: #515100;
+  line-height: 1;
+}
+
+.customers-desc {
+  margin-top: 25px;
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+}
+
+.customers-extradesc {
+  margin-top: 100px;
+  font-family: Montserrat;
+  width: 50% !important;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+}

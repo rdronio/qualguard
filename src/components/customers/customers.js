@@ -20,12 +20,7 @@ export default class Customers extends Component {
           <div className="customers-heading">Lorem ipsum dolor sit amet</div>
         </Segment>
 
-        <Segment
-          id="customers_"
-          className="career customers-card"
-          vertical
-          textAlign="center"
-        >
+        <Segment vertical textAlign="center">
           <Container>
             <Grid stackable columns={3}>
               <Grid.Column mobile={16} tablet={16} computer={5}>
@@ -135,6 +130,15 @@ export default class Customers extends Component {
             </Grid>
           </Container>
         </Segment>
+        <Container className="customers-extradesc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Container>
       </Segment>
     );
   }
