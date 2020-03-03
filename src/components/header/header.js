@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import { Menu, Container, Image, Segment } from "semantic-ui-react";
 
 import logo from "./images/qualguard-logo.png";
-import bg_landingpage from "./images/bg_landingpage.png";
+
+// import bg_landingpage from "./images/bg_landingpage.png";
+import bg_landingpage from "./images/bg_landingpage2.png";
 
 export default class Header extends Component {
   state = {};

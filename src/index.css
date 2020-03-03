@@ -12,6 +12,8 @@ code {
     monospace;
 }
 
+/****** Font Family *******/
+
 @font-face {
   font-family: "BebasNeue";
   src: local("BebasNeue"), url(./fonts/BebasNeue-Regular.otf) format("opentype");
@@ -21,6 +23,20 @@ code {
   font-family: "Bebas";
   src: local("Bebas"), url(./fonts/Bebas-Regular.otf) format("opentype");
 }
+
+/***** Scroll Bar ******/
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#515100, #383800) !important;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar {
+  background: linear-gradient(#b6bdc6, #b1cef3) !important;
+  width: 15px !important;
+}
+
+/***** Header ******/
 
 .right_header .item {
   font-family: BebasNeue;
