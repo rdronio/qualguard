@@ -44,7 +44,7 @@ export default class Header extends Component {
                   active={activeItem === "upcomingEvents"}
                   onClick={this.handleItemClick}
                 >
-                  About Us
+                  About
                 </Menu.Item>
               </Link>
             </Menu.Menu>

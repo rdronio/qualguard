@@ -195,8 +195,9 @@ code {
   height: 35vh;
 }
 .customers-heading {
-  margin: 150px;
+  margin: 5%;
   font-family: Bebas Neue;
+  line-height: 1;
   font-size: 100px;
   color: #fff;
 }

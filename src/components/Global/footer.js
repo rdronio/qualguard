@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Segment, Image, Grid, Container } from "semantic-ui-react";
 
-import logo from "../images/qualguard-logo2.png";
+import logo from "../images/qualguard-logo.png";
 import systemo from "../images/systemoph-logo.png";
 
 export default class Footer extends Component {
