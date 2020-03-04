@@ -14,7 +14,7 @@ code {
 
 /****** Font Family *******/
 
-@font-face {
+/* @font-face {
   font-family: "BebasNeue";
   src: local("BebasNeue"), url(./fonts/BebasNeue-Regular.otf) format("opentype");
 }
@@ -22,6 +22,18 @@ code {
 @font-face {
   font-family: "Bebas";
   src: local("Bebas"), url(./fonts/Bebas-Regular.otf) format("opentype");
+} */
+
+@font-face {
+  font-family: "BebasNeue";
+  src: local("BebasNeue"),
+    url(./static/media/BebasNeue-Regular.efe36cb1.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Bebas";
+  src: local("Bebas"),
+    url(./static/media/Bebas-Regular.9d0065c3.otf) format("opentype");
 }
 
 /***** Scroll Bar ******/
