@@ -79,7 +79,10 @@ code {
   height: 100vh;
 }
 .showcase-content {
-  margin-top: 20em;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .showcase-content-subheading {
   font-family: Bebas Neue;
