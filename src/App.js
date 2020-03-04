@@ -4,8 +4,8 @@ import "./App.css";
 
 import "semantic-ui-css/semantic.min.css";
 
-import Home from "./components/Home";
-import About from "./components/About";
+import Home from "./components/Pages/Home";
+import About from "./components/Pages/About";
 
 const App: React.FC = () => {
   return (
