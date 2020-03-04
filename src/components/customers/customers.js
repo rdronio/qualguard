@@ -7,7 +7,7 @@ import logo from "./images/qualguard-logo.png";
 export default class Customers extends Component {
   render() {
     return (
-      <Segment id="customers_" className="career" vertical textAlign="center">
+      <Segment id="customers" className="career" vertical textAlign="center">
         <Segment
           id="customers_"
           className="career"
@@ -20,7 +20,7 @@ export default class Customers extends Component {
           <div className="customers-heading">Lorem ipsum dolor sit amet</div>
         </Segment>
 
-        <Segment vertical textAlign="center">
+        <Segment vertical textAlign="center" className="customers-card">
           <Container>
             <Grid stackable columns={3}>
               <Grid.Column mobile={16} tablet={16} computer={5}>

@@ -6,6 +6,7 @@ import "semantic-ui-css/semantic.min.css";
 import Header from "./components/header/header";
 import Services from "./components/services/services";
 import Customers from "./components/customers/customers";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Services />
       <Customers />
+      <Footer />
     </div>
   );
 }
