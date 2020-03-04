@@ -14,7 +14,7 @@ code {
 
 /****** Font Family *******/
 
-@font-face {
+/* @font-face {
   font-family: "BebasNeue";
   src: local("BebasNeue"), url(./fonts/BebasNeue-Regular.otf) format("opentype");
 }
@@ -22,12 +22,12 @@ code {
 @font-face {
   font-family: "Bebas";
   src: local("Bebas"), url(./fonts/Bebas-Regular.otf) format("opentype");
-}
+} */
 
 /***** Scroll Bar ******/
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(#515100, #383800) !important;
+  background: linear-gradient(#313100, #383800) !important;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
@@ -39,7 +39,7 @@ code {
 /***** Header ******/
 
 .right_header .item {
-  font-family: BebasNeue;
+  font-family: Bebas Neue;
   border-radius: 0 !important;
   font-size: 20px;
   height: 100%;
@@ -57,17 +57,17 @@ code {
 
 .ui.secondary.menu .active.item {
   box-shadow: none;
-  background: #515100 !important;
+  background: #313100 !important;
   color: #fff !important;
   border-radius: 0 !important;
 }
 
 .ui.secondary.menu {
   box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
-    0 5px 22px 4px rgba(0, 0, 0, 0.048);
+    0 5px 22px 4px rgba(0, 0, 0, 0.048) !important;
   position: fixed !important;
   background: #fff !important;
-  z-index: 100;
+  z-index: 101;
   width: 101%;
   left: 0;
   top: 0;
@@ -82,7 +82,7 @@ code {
   margin-top: 20em;
 }
 .showcase-content-subheading {
-  font-family: BebasNeue;
+  font-family: Bebas Neue;
   letter-spacing: 0.5px;
   margin-bottom: -25px;
   font-size: 40px;
@@ -90,7 +90,7 @@ code {
 }
 
 .showcase-content-heading {
-  font-family: BebasNeue;
+  font-family: Bebas Neue;
   letter-spacing: 0.5px;
   font-size: 80px;
   color: #fff;
@@ -118,7 +118,7 @@ code {
 }
 
 .showcase-content-button-leftcontainer {
-  font-family: BebasNeue;
+  font-family: Bebas Neue;
   margin-right: 10px;
 }
 .showcase-content-button-leftcontainer a {
@@ -133,7 +133,7 @@ code {
 }
 
 .showcase-content-button-rightcontainer {
-  font-family: BebasNeue;
+  font-family: Bebas Neue;
 }
 .showcase-content-button-rightcontainer a {
   padding: 10px 20px;
@@ -147,11 +147,12 @@ code {
 /***** Service ******/
 
 #services_ {
+  border: none !important;
   margin: 100px 0;
 }
 
 .service-title {
-  font-family: BebasNeue;
+  font-family: Bebas Neue;
   text-align: left;
   font-size: 30px;
 }
@@ -176,10 +177,14 @@ code {
   margin: 5px !important;
   padding: 60px !important;
   color: #fff;
-  background: #515100;
+  background: #313100;
 }
 
 /***** Customers ******/
+
+#customers {
+  padding-bottom: 150px;
+}
 
 #customers_ {
   background-size: cover;
@@ -188,13 +193,14 @@ code {
 }
 .customers-heading {
   margin: 150px;
-  font-family: BebasNeue;
+  font-family: Bebas Neue;
   font-size: 100px;
   color: #fff;
 }
 
 .customers-card {
   margin-top: -100px !important;
+  border: none !important;
   z-index: 100;
 }
 
@@ -211,10 +217,10 @@ code {
   z-index: 100;
 }
 .customers-title {
-  font-family: BebasNeue;
+  font-family: Bebas Neue;
   text-align: center;
   font-size: 30px;
-  color: #515100;
+  color: #313100;
   line-height: 1;
 }
 
@@ -233,4 +239,54 @@ code {
   text-align: center;
   font-size: 14px;
   color: #000;
+}
+
+/***** Footer ******/
+
+.footer {
+  background: #313100 !important;
+}
+.footer::before {
+  display: block;
+  content: "";
+  width: 100%;
+  margin-top: -15px;
+  height: 20px;
+  background: #515100;
+}
+
+.footer-content {
+  padding: 50px 0;
+}
+
+.footer-title {
+  font-family: Bebas Neue;
+  letter-spacing: 1.5px;
+  text-align: left;
+  font-size: 28px;
+  color: #fff;
+}
+
+.footer-desc {
+  font-family: Montserrat;
+  letter-spacing: 1px;
+  padding-top: 25px;
+  text-align: left;
+  font-size: 12px;
+  color: #fff;
+}
+
+.ui.container.footer-poweredby {
+  justify-content: center;
+  display: flex;
+}
+
+.systemoph {
+  display: flex;
+  font-family: Bebas Neue;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-right: 5px;
 }

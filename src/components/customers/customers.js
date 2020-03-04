@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Container, Grid, Image, Segment } from "semantic-ui-react";
 
-import bg_landingpage from "./images/bg_landingpage.png";
-import logo from "./images/qualguard-logo.png";
+import bg_landingpage from "../images/bg_landingpage.png";
+import logo from "../images/qualguard-logo.png";
 
 export default class Customers extends Component {
   render() {

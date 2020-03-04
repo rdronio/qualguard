@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Grid, Image, Segment } from "semantic-ui-react";
 
-import logo from "./images/qualguard-logo.png";
+import logo from "../images/qualguard-logo.png";
 
 export default class Services extends Component {
   render() {
