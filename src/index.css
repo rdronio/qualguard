@@ -346,3 +346,55 @@ code {
   font-size: 20px;
   color: #000;
 }
+
+.showcase-content-button-leftcontainer a:hover {
+    border: solid 3px #000;
+    color: #000 !important;
+    background: #ffc425;      
+}
+
+.grid.president-content {
+    margin: 200px 0 !important;
+    box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08), 0 5px 22px 4px rgba(0, 0, 0, 0.048);
+    padding: 30px !important;
+    border-radius: 20px;
+}
+
+.president-image-content img{
+    margin: 0 auto !important;
+}
+
+.president-desc-content{
+    margin: auto 0 !important;
+}
+
+.president-title {
+    flex: 1;  
+    font-family: Montserrat;
+    font-size: 16px;
+    padding-right: 30px !important;
+    letter-spacing: .5px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.president-desc {
+    font-family: Montserrat;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.vision-heading {
+  font-family: Bebas Neue;
+  font-size: 50px;
+  padding: 20px 0;
+  color: #313100;
+}
+
+.vision-desc {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #000;
+}
