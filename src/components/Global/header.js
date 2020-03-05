@@ -31,13 +31,16 @@ export default class Header extends Component {
                 </Menu.Item>
               </Link>
 
-              <Menu.Item
-                name="reviews"
-                active={activeItem === "reviews"}
-                onClick={this.handleItemClick}
-              >
-                Products
-              </Menu.Item>
+              <Link to="/products">
+                <Menu.Item
+                  name="reviews"
+                  active={activeItem === "reviews"}
+                  onClick={this.handleItemClick}
+                >
+                  Products
+                </Menu.Item>
+              </Link>
+
               <Link to="/about">
                 <Menu.Item
                   name="upcomingEvents"

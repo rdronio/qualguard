@@ -217,7 +217,7 @@ code {
   padding: 80px 10px !important;
   margin: 5px !important;
   background: #fff;
-  border-radius: 10%;
+  border-radius: 40px;
   z-index: 100;
 }
 .customers-title {
@@ -259,8 +259,12 @@ code {
   background: #515100;
 }
 
+.footer-logo {
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.53));
+}
+
 .footer-content {
-  padding: 50px 0;
+  padding: 100px 0 100px 0;
 }
 
 .footer-title {
@@ -334,6 +338,10 @@ code {
   padding: 200px 0 !important;
 }
 
+.mission-content-aboutus {
+  border-right: 2px solid #ffc425;
+}
+
 .mission-heading {
   font-family: Bebas Neue;
   font-size: 50px;
@@ -343,48 +351,50 @@ code {
 
 .mission-desc {
   font-family: Montserrat;
-  font-size: 20px;
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 35px;
   color: #000;
 }
 
 .showcase-content-button-leftcontainer a:hover {
-    border: solid 3px #000;
-    color: #000 !important;
-    background: #ffc425;      
+  border: solid 3px #000;
+  color: #000 !important;
+  background: #ffc425;
 }
 
 .grid.president-content {
-    margin: 200px 0 !important;
-    box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08), 0 5px 22px 4px rgba(0, 0, 0, 0.048);
-    padding: 30px !important;
-    border-radius: 20px;
+  margin: 200px 0 !important;
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+    0 5px 22px 4px rgba(0, 0, 0, 0.048);
+  padding: 30px !important;
+  border-radius: 20px;
 }
 
-.president-image-content img{
-    margin: 0 auto !important;
+.president-image-content img {
+  margin: 0 auto !important;
 }
 
-.president-desc-content{
-    margin: auto 0 !important;
+.president-desc-content {
+  margin: auto 0 !important;
 }
 
 .president-title {
-    flex: 1;  
-    font-family: Montserrat;
-    font-size: 16px;
-    padding-right: 30px !important;
-    letter-spacing: .5px;
-    text-align: left;
-    line-height: 1.5;
+  flex: 1;
+  font-family: Montserrat;
+  font-size: 16px;
+  padding-right: 30px !important;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 1.5;
 }
 
 .president-desc {
-    font-family: Montserrat;
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: 700;
+  font-family: Montserrat;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
 }
-
 
 .vision-heading {
   font-family: Bebas Neue;
@@ -395,6 +405,8 @@ code {
 
 .vision-desc {
   font-family: Montserrat;
-  font-size: 20px;
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 35px;
   color: #000;
 }

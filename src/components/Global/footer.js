@@ -11,7 +11,7 @@ export default class Footer extends Component {
         <Container className="footer-content">
           <Grid stackable columns={3}>
             <Grid.Column width="4" className="">
-              <Image src={logo} size="small" />
+              <Image src={logo} size="small" className="footer-logo" />
             </Grid.Column>
 
             <Grid.Column width="4">
@@ -19,28 +19,27 @@ export default class Footer extends Component {
               <div className="footer-desc">
                 <p>
                   {" "}
-                  salesmarketing@systemoph.com <br /> +639175553844 <br />{" "}
-                  +639612452478 <br /> +639190002586
+                  Lorem ipsum dolor sit amet <br /> +639123456789 <br />{" "}
+                  +639123456789 <br /> +639123456789
                 </p>
               </div>
             </Grid.Column>
 
             <Grid.Column width="4" className="">
               <div className="footer-title"> Address </div>
-              <div className="footer-desc">Main: Guagua, Pampanga 2003</div>
               <div className="footer-desc">
-                Branch: Malolos City, Bulacan 3000
+                Main: Lorem ipsum dolor sit amet
               </div>
             </Grid.Column>
 
             <Grid.Column width="4" className="">
               <div className="footer-title"> Office Hours </div>
               <div className="footer-desc">
-                Mon:09:00 am – 05:00 pm <br />
-                Tue:09:00 am – 05:00 pm <br />
-                Wed:09:00 am – 05:00 pm <br />
-                Thu:09:00 am – 05:00 pm <br />
-                Fri:09:00 am – 05:00 pm <br />
+                Lorem ipsum dolor sit amet <br />
+                Lorem ipsum dolor sit amet <br />
+                Lorem ipsum dolor sit amet <br />
+                Lorem ipsum dolor sit amet <br />
+                Lorem ipsum dolor sit amet <br />
               </div>
             </Grid.Column>
           </Grid>

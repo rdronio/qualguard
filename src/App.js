@@ -5,6 +5,7 @@ import "./App.css";
 import "semantic-ui-css/semantic.min.css";
 
 import Home from "./components/Pages/Home";
+import Products from "./components/Pages/Products";
 import About from "./components/Pages/About";
 
 const App: React.FC = () => {
@@ -13,6 +14,7 @@ const App: React.FC = () => {
       <Switch>
         <Route path="/" exact component={Home}></Route>
         <Route path="/home" exact component={Home}></Route>
+        <Route path="/products" exact component={Products}></Route>
         <Route path="/about" exact component={About}></Route>
       </Switch>
     </BrowserRouter>
