@@ -39,6 +39,8 @@ export default class Content extends Component {
       speed: 300,
       slidesToShow: 4,
       slidesToScroll: 4,
+      autoplay: true,
+      autoplaySpeed: 1000,
       responsive: [
         {
           breakpoint: 1024,
