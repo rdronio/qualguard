@@ -26,14 +26,6 @@ export default class Content extends Component {
 
   render() {
     const settings = {
-      // dots: true,
-      // infinite: true,
-      // speed: 500,
-      // slidesToShow: 3,
-      // slidesToScroll: 3,
-      // autoplay: true,
-      // autoplaySpeed: 5000,
-
       dots: true,
       infinite: false,
       speed: 300,
@@ -65,9 +57,6 @@ export default class Content extends Component {
             slidesToScroll: 1
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ]
     };
 

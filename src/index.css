@@ -147,6 +147,12 @@ code {
   font-size: 20px;
 }
 
+.showcase,
+#customers_ {
+  background-position: center !important;
+  background-attachment: fixed !important;
+}
+
 /***** Service ******/
 
 #services_ {
@@ -580,7 +586,8 @@ code {
   /**** Customer *****/
 
   .customers-heading {
-    font-size: 80px !important;
+    font-size: 50px !important;
+    margin: 5%;
   }
 
   .customers-card {
@@ -675,6 +682,11 @@ code {
     margin-right: 2rem !important;
   }
 
+  .customers-heading {
+    font-size: 50px !important;
+    margin: 15%;
+  }
+
   .customers-image {
     width: 100px !important;
     margin: 0 auto !important;
@@ -729,7 +741,7 @@ code {
 
   .customers-heading {
     font-size: 55px !important;
-    margin: 25% 0px;
+    margin: 10% 0px;
   }
 
   .ui.grid .ui.stackable.grid.customers-content {
