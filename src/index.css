@@ -156,6 +156,7 @@ code {
 
 .service-title {
   font-family: Bebas Neue;
+  line-height: 1;
   text-align: left;
   font-size: 30px;
 }
@@ -271,6 +272,7 @@ code {
   font-family: Bebas Neue;
   letter-spacing: 1.5px;
   text-align: left;
+  line-height: 1;
   font-size: 28px;
   color: #fff;
 }
@@ -524,4 +526,270 @@ code {
 .slick-slider > .slick-prev::before,
 .slick-slider > .slick-next::before {
   color: #313100 !important;
+}
+
+.slick-dots {
+  position: relative !important;
+  margin-top: 25px !important;
+}
+
+/**** Mobile Queries ******/
+
+@media only screen and (max-width: 991px) {
+  .header_container {
+    flex-direction: column !important;
+  }
+
+  .header_container > .item img {
+    max-width: 65% !important;
+    margin: 0 auto !important;
+  }
+
+  .header_container .right.menu {
+    margin: 0 auto !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .showcase-content-subheading {
+    margin-bottom: 0 !important;
+  }
+
+  .showcase-content-heading {
+    line-height: 1;
+    font-size: 80px;
+  }
+
+  .showcase-content-desc {
+    line-height: 1;
+  }
+
+  /**** Services *****/
+  .ui.grid .ui.stackable.grid.services-content {
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+  }
+
+  .services-image {
+    width: 150px !important;
+    margin: 0 auto !important;
+  }
+
+  /**** Customer *****/
+
+  .customers-heading {
+    font-size: 80px !important;
+  }
+
+  .customers-card {
+    margin-top: 0 !important;
+  }
+
+  .ui.grid .ui.stackable.grid.customers-content {
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+  }
+
+  .customers-image {
+    width: 150px !important;
+    margin: 0 auto !important;
+  }
+
+  .customers-extradesc {
+    padding: 0 100px !important;
+  }
+
+  /**** Footer ****/
+
+  .footer-content {
+    padding: 100px !important;
+  }
+
+  /***** [ Product ] *******/
+  .showcase-products-content-heading {
+    font-size: 100px;
+  }
+
+  .showcase-products-content-heading::after {
+    width: 50%;
+  }
+
+  .product {
+    text-align: center;
+  }
+
+  .slick-slider {
+    margin: 0 20px !important;
+  }
+
+  .ui.stackable.grid > .wide.column.column.product-content {
+    box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+      0 5px 22px 4px rgba(0, 0, 0, 0.048) !important;
+    margin: 10px 100px !important;
+    border-radius: 20px !important;
+    padding: 40px !important;
+  }
+
+  /****** [ About Us ] *******/
+
+  .showcase-aboutus-content-heading {
+    font-size: 100px;
+  }
+
+  .mission-content-aboutus {
+    border-right: none !important;
+  }
+
+  .ui.grid .ui.stackable.grid.president-content {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+
+  .president-title {
+    padding-right: 0 !important;
+    font-size: 14px;
+  }
+
+  .mission-desc,
+  .vision-desc {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /**** Services *****/
+  .ui.grid .ui.stackable.grid.services-content {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+
+  .services-image {
+    width: 100px !important;
+    margin: 0 auto !important;
+  }
+
+  .ui.grid .ui.stackable.grid.customers-content {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+
+  .customers-image {
+    width: 100px !important;
+    margin: 0 auto !important;
+  }
+
+  .customers-extradesc {
+    padding: 0 75px !important;
+  }
+
+  /***** [ Product ] *******/
+
+  .ui.stackable.grid > .wide.column.column.product-content {
+    box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+      0 5px 22px 4px rgba(0, 0, 0, 0.048) !important;
+    margin: 10px 30px !important;
+    border-radius: 20px !important;
+    padding: 40px !important;
+  }
+
+  .segment.content-product {
+    padding: 75px 0 !important;
+  }
+
+  /****** [ About Us ] *******/
+
+  .president-image {
+    width: 150px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .showcase-content-subheading {
+    font-size: 25px;
+  }
+  .showcase-content-heading {
+    font-size: 55px;
+  }
+  .showcase-content-desc {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .showcase-content-button-leftcontainer a,
+  .showcase-content-button-rightcontainer a {
+    font-size: 14px;
+  }
+  .ui.grid .ui.stackable.grid.services-content {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    padding: 25px !important;
+  }
+
+  .customers-heading {
+    font-size: 55px !important;
+    margin: 25% 0px;
+  }
+
+  .ui.grid .ui.stackable.grid.customers-content {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    padding: 40px 10px !important;
+  }
+
+  .customers-title {
+    font-size: 25px;
+  }
+  .customers-desc {
+    font-size: 12px;
+  }
+  .customers-extradesc {
+    font-size: 12px;
+    padding: 0 40px !important;
+  }
+
+  .footer-content {
+    padding: 50px !important;
+  }
+
+  /****** [ Product *******/
+
+  .showcase-products-content-heading {
+    font-size: 75px;
+  }
+
+  .ui.stackable.grid > .wide.column.column.product-content {
+    padding: 20px !important;
+    margin: 10px 5px !important;
+  }
+
+  .product-desc ul {
+    font-size: 12px;
+  }
+
+  .product-content img {
+    width: 100px !important;
+  }
+
+  /****** [ About Us ] *******/
+
+  .showcase-aboutus-content-heading {
+    font-size: 75px;
+  }
+
+  .ui.grid .ui.stackable.grid.president-content {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+
+  .aboutus-content-desc,
+  .president-title,
+  .mission-desc,
+  .vision-desc {
+    font-size: 12px;
+  }
+
+  .mission-heading,
+  .vision-heading {
+    font-size: 40px;
+  }
 }

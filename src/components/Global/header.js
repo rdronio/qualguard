@@ -15,9 +15,9 @@ export default class Header extends Component {
     return (
       <div>
         <Menu secondary>
-          <Container>
+          <Container className="header_container">
             <Menu.Item>
-              <Image src={logo} size="medium" className="header_logo" />
+              <Image src={logo} size="medium" className="header_logo" wrapped />
             </Menu.Item>
 
             <Menu.Menu className="right_header" position="right">
