@@ -410,3 +410,118 @@ code {
   padding: 35px;
   color: #000;
 }
+
+.aboutus-content {
+  border-right: 1px solid #313100;
+  padding: 20px;
+}
+.aboutus-content-desc {
+  font-family: Montserrat;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.showcase-products {
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+    0 5px 22px 4px rgba(0, 0, 0, 0.048);
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  height: 50vh;
+}
+
+.showcase-products-content {
+  height: 50vh;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.showcase-products-content-heading {
+  font-family: Bebas Neue;
+  letter-spacing: 0.5px;
+  font-size: 120px;
+  color: #fff;
+}
+.showcase-products-content-heading::after {
+  content: "";
+  border-bottom: 3px solid #ffc425;
+  display: block;
+  width: 60%;
+  margin: 0 auto !important;
+  margin-bottom: 10px;
+}
+
+.segment.content-product {
+  padding: 100px 0 !important;
+}
+
+/***** Categories ******/
+
+.product-content-desc {
+  padding: 150px;
+  font-family: Montserrat;
+  line-height: 1.5 !important;
+  text-align: ceneter;
+}
+
+.product-categories-image {
+  margin: 0 auto !important;
+}
+
+.product-content-categories-heading {
+  font-family: Bebas Neue;
+  font-size: 26px;
+  padding: 20px;
+}
+
+.product-content-categories button {
+  background: #313100;
+  padding: 10px 40px;
+  font-family: Bebas Neue;
+  color: #fff !important;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  border: none;
+  border-radius: 20px;
+}
+
+/**** Product ******/
+.segment.content-products {
+  padding: 50px;
+}
+
+.product {
+  margin: 80px 0px;
+  font-family: Bebas Neue;
+  font-size: 40px;
+  text-align: left;
+}
+.column.product-content {
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+    0 5px 22px 4px rgba(0, 0, 0, 0.048) !important;
+  margin: 10px 10px;
+  border-radius: 20px;
+  padding: 40px !important;
+}
+
+.product-content img {
+  margin: 0 auto;
+}
+.product-content-heading {
+  padding: 20px;
+  font-family: Bebas Neue;
+  line-height: 1.5;
+  font-size: 32px;
+}
+.product-desc ul {
+  padding: 0px !important;
+  font-family: Montserrat;
+  list-style: none;
+  line-height: 1.5;
+}
+
+.slick-slider > .slick-prev::before,
+.slick-slider > .slick-next::before {
+  color: #313100 !important;
+}
