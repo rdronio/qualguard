@@ -479,6 +479,7 @@ code {
 
 .product-content-categories-heading {
   font-family: Bebas Neue;
+  line-height: 1;
   font-size: 26px;
   padding: 20px;
 }
@@ -528,7 +529,7 @@ code {
 .product-desc ul {
   padding: 0px !important;
   font-family: Montserrat;
-  list-style: none;
+  /* list-style: none; */
   line-height: 1.5;
   text-align: left;
   font-size: 11px;

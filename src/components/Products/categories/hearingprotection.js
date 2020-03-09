@@ -37,7 +37,7 @@ export default class HearingProtection extends Component {
               className="product-content"
             >
               <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Splderklng Bralge-200 Earmuff</div>
+              <div className="product-content-heading">Spiderking Bralge-200 Earmuff</div>
               <div className="product-desc">
                 <ul>
                   <li> Heavy-duty, Comfortable </li>
@@ -97,7 +97,7 @@ export default class HearingProtection extends Component {
               className="product-content"
             >
               <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Splderklng Mavis - 01D Disposable Earplug Corded</div>
+              <div className="product-content-heading">Spiderking Mavis - 01D Disposable Earplug Corded</div>
               <div className="product-desc">
                 <ul>
                   <li> Heavy-duty, Comfortable  </li>
@@ -116,7 +116,7 @@ export default class HearingProtection extends Component {
               className="product-content"
             >
               <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Splderklng Earplug Dispenser</div>
+              <div className="product-content-heading">Spiderking Earplug Dispenser</div>
               <div className="product-desc">
                 <ul>
                   <li> Heavy-duty, Comfortable </li>
