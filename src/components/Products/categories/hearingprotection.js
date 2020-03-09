@@ -17,17 +17,16 @@ export default class HearingProtection extends Component {
               className="product-content"
             >
               <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Eye Protection</div>
+              <div className="product-content-heading">Spiderking Braige-100 Earmuff</div>
               <div className="product-desc">
                 <ul>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
+                  <li> Heavy-duty, Comfortable </li>
+                  <li> Adjustable padded earcups </li>
+                  <li> ABS Earcups, PVC Leather with foam filler </li>
+                  <li> Noise Reduction Rating (NRR): 28dB  </li>
+                  <li> Colors: Red, Yellow </li>
+                  <li> CE EN 352.1 Compliant  </li>
+                  <li> ANSI S3.19 Compliant </li>
                 </ul>
               </div>
             </Grid.Column>
@@ -38,17 +37,16 @@ export default class HearingProtection extends Component {
               className="product-content"
             >
               <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Eye Protection</div>
+              <div className="product-content-heading">Splderklng Bralge-200 Earmuff</div>
               <div className="product-desc">
                 <ul>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
+                  <li> Heavy-duty, Comfortable </li>
+                  <li> Adjustable padded earcups </li>
+                  <li> ABS Earcups, PVC Leather with foam filler </li>
+                  <li> Noise Reduction Rating (NRR): 28dB  </li>
+                  <li> Colors: Blue, Black </li>
+                  <li> CE EN 352.1 Compliant  </li>
+                  <li> ANSI S3.19 Compliant </li>
                 </ul>
               </div>
             </Grid.Column>
@@ -59,17 +57,17 @@ export default class HearingProtection extends Component {
               className="product-content"
             >
               <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Eye Protection</div>
+              <div className="product-content-heading">Spiderking Asaph-01 Helmet Mounted Earmuffs</div>
               <div className="product-desc">
                 <ul>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
+                  <li> Heavy-duty, Comfortable </li>
+                  <li> Safely helmet attachment </li>
+                  <li> Adjustable padded earcups </li>
+                  <li> ABS Earcups, PVC Leather with foam filler </li>
+                  <li> Noise Reduction Rating (NRR): 28dB  </li>
+                  <li> Colors: Blue, Black </li>
+                  <li> CE EN 352.1 Compliant  </li>
+                  <li> ANSI S3.19 Compliant </li>
                 </ul>
               </div>
             </Grid.Column>
@@ -80,17 +78,52 @@ export default class HearingProtection extends Component {
               className="product-content"
             >
               <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Eye Protection</div>
+              <div className="product-content-heading">Spiderking Mavis-01R Reusable Earplug Corded </div>
               <div className="product-desc">
                 <ul>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
+                  <li> Heavy-duty, Comfortable  </li>
+                  <li> Soft, non-allergenic </li>
+                  <li> PU Foam earplug,  Nylon  cord  </li>
+                  <li> Noise Reduction Rating (NRR): 32dB  </li>
+                  <li> CE EN 352.3 Compliant </li>
+                  <li> ANSI S3.19 Compliant </li>
+                </ul>
+              </div>
+            </Grid.Column>
+            <Grid.Column
+              mobile={16}
+              tablet={16}
+              computer={5}
+              className="product-content"
+            >
+              <Image src={logo} size="small" className="product-image" />
+              <div className="product-content-heading">Splderklng Mavis - 01D Disposable Earplug Corded</div>
+              <div className="product-desc">
+                <ul>
+                  <li> Heavy-duty, Comfortable  </li>
+                  <li> Soft, non-allergenic </li>
+                  <li> PU Foam earplug,  Nylon  cord  </li>
+                  <li> Noise Reduction Rating (NRR): 32dB  </li>
+                  <li> CE EN 352.3 Compliant </li>
+                  <li> ANSI S3.19 Compliant </li>
+                </ul>
+              </div>
+            </Grid.Column>
+            <Grid.Column
+              mobile={16}
+              tablet={16}
+              computer={5}
+              className="product-content"
+            >
+              <Image src={logo} size="small" className="product-image" />
+              <div className="product-content-heading">Splderklng Earplug Dispenser</div>
+              <div className="product-desc">
+                <ul>
+                  <li> Heavy-duty, Comfortable </li>
+                  <li> l ,000 earplugs capacity </li>
+                  <li> Twist-action dispenser </li>
+                  <li> Wall-mounted design </li>
+                  <li> Polycarbonate Container </li>
                 </ul>
               </div>
             </Grid.Column>

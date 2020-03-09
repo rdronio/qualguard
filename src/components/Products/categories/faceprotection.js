@@ -17,17 +17,17 @@ export default class FaceProtection extends Component {
               className="product-content"
             >
               <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Hand Protection</div>
+              <div className="product-content-heading">Spiderking Welding Mask with Bracket</div>
               <div className="product-desc">
                 <ul>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
+                  <li> Heavy-duty design </li>
+                  <li> Safety helmet attachment </li>
+                  <li> Made from PP [Polypropylene) Shell </li>
+                  <li> Aluminum Bracket </li>
+                  <li> Lift-up front lens </li>
+                  <li> LLens Size: 4.25"x2" or l 08mm x 51mm </li>
+                  <li> CE EN 175 Compliant </li>
+                  <li> ANSI Z89.1 Compliant </li>
                 </ul>
               </div>
             </Grid.Column>
@@ -38,17 +38,10 @@ export default class FaceProtection extends Component {
               className="product-content"
             >
               <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Hand Protection</div>
+              <div className="product-content-heading"> Spiderking Faceshield VISOr with Browguard </div>
               <div className="product-desc">
                 <ul>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
+                  <li> Combination of Spiderking Browguard and Spiderking Faceshield Visor </li>
                 </ul>
               </div>
             </Grid.Column>
@@ -59,17 +52,14 @@ export default class FaceProtection extends Component {
               className="product-content"
             >
               <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Hand Protection</div>
+              <div className="product-content-heading">Spiderking Faceshield Bracket</div>
               <div className="product-desc">
                 <ul>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
+                  <li> Heavy-duty, Impact Resistant  </li>
+                  <li> Safety helmet attachment </li>
+                  <li> Made from ABS [Acrylonitrile butadiene styrene)  </li>
+                  <li> CE EN 166 Compliant </li>
+                  <li> ANSI Z89.1 Compliant </li>
                 </ul>
               </div>
             </Grid.Column>
@@ -80,17 +70,56 @@ export default class FaceProtection extends Component {
               className="product-content"
             >
               <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Hand Protection</div>
+              <div className="product-content-heading">Spiderking Welding Mask, Rachel Type -
+Heavy Medium
+</div>
               <div className="product-desc">
                 <ul>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
-                  <li> Lorem ipsum dolor sit amet </li>
+                  <li> Heavy-duty design </li>
+                  <li> Ratchet Type locking mechanism </li>
+                  <li> Made from PP (Polypropylene) </li>
+                  <li> Lift-up front lens </li>
+                  <li> Lens Size: 4.25"x2" or l 08mm x 51mm  </li>
+                  <li> CE EN 175 Compliant </li>
+                  <li> ANSI Z89.1 Compliant </li>
+                </ul>
+              </div>
+            </Grid.Column>
+            <Grid.Column
+              mobile={16}
+              tablet={16}
+              computer={5}
+              className="product-content"
+            >
+              <Image src={logo} size="small" className="product-image" />
+              <div className="product-content-heading">Spiderking Browguard</div>
+              <div className="product-desc">
+                <ul>
+                  <li> Heavy-duty, Impact Resistant </li>
+                  <li> Ratchet type locking mechanism  </li>
+                  <li> Made from ABS (Acrylonitrile butadiene styrene)  </li>
+                  <li> CE EN 166 Compliant </li>
+                  <li> ANSI Z89.1 Compliant </li>
+                </ul>
+              </div>
+            </Grid.Column>
+            <Grid.Column
+              mobile={16}
+              tablet={16}
+              computer={5}
+              className="product-content"
+            >
+              <Image src={logo} size="small" className="product-image" />
+              <div className="product-content-heading">Spidertcing Faceshield Visor</div>
+              <div className="product-desc">
+                <ul>
+                  <li> Heavy-duty design </li>
+                  <li> Provide protection against high impact, splash of liquid, heat, molten metal and hot solids. </li>
+                  <li> Made  from  PC  (Polycarbonate)  </li>
+                  <li> Size: 8" x 15.5 " or 203mm x 393mm   </li>
+                  <li> Temperature range:  -5°C  to  55°C  </li>
+                  <li> CE EN 166 Compliant </li>
+                  <li> ANSI Z87.1 Compliant </li>
                 </ul>
               </div>
             </Grid.Column>
