@@ -3,6 +3,30 @@ import { Container, Segment, Grid, Image } from "semantic-ui-react";
 
 import logo from "./images/qualguard-logo.png";
 
+import fp1 from "./images/footprotection/Exodus-300x300.jpg";
+import fp2 from "./images/footprotection/Genesis-300x300.jpg";
+import fp3 from "./images/footprotection/Eros-300x300.jpg";
+import fp4 from "./images/footprotection/Gaea-300x300.jpg";
+import fp5 from "./images/footprotection/Shinra-300x300.jpg";
+// import fp6 from "./images/footprotection/Exodus-300x300.jpg";
+import fp7 from "./images/footprotection/Cetra-300x300.jpg";
+import fp8 from "./images/footprotection/Darius-300x300.jpg";
+import fp9 from "./images/footprotection/Neptune-300x300.jpg";
+import fp10 from "./images/footprotection/Saturn-300x300.jpg";
+import fp11 from "./images/footprotection/Casual-300x300.jpg";
+import fp12 from "./images/footprotection/Hiker-300x300.jpg";
+import fp13 from "./images/footprotection/Classic-300x300.jpg";
+import fp14 from "./images/footprotection/Advent-900x900-300x300.jpg";
+import fp15 from "./images/footprotection/Myles-300x300.jpg";
+import fp16 from "./images/footprotection/Colby-300x300.jpg";
+import fp17 from "./images/footprotection/Clay-300x300.jpg";
+import fp18 from "./images/footprotection/Coal-300x300.jpg";
+import fp19 from "./images/footprotection/Mica-300x300.jpg";
+import fp20 from "./images/footprotection/HB-ST-Y-300x300.jpg";
+import fp21 from "./images/footprotection/HB-MS-B-300x300.jpg";
+import fp22 from "./images/footprotection/RBO-Black-300x300.jpg";
+import fp23 from "./images/footprotection/RB-ST-B-300x300.jpg";
+
 export default class FootProtection extends Component {
   render() {
     return (
@@ -16,7 +40,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp1} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-EXODUS (Low cut)
               </div>
@@ -55,7 +79,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp2} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-GENESIS (High cut)
               </div>
@@ -94,7 +118,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp3} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderklig Safety Shoes-Er/OS (Low cut)
               </div>
@@ -133,7 +157,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp4} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-GAEA (High cut)
               </div>
@@ -172,7 +196,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp5} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-SHINRA (Low cut)
               </div>
@@ -248,7 +272,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp7} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-CETRA (Low cut)
               </div>
@@ -286,7 +310,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp8} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-DARIUS (High cut)
               </div>
@@ -324,7 +348,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp9} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-NEPTUNE
               </div>
@@ -362,7 +386,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp10} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-SATURN
               </div>
@@ -400,7 +424,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp11} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-CASUAL
               </div>
@@ -438,7 +462,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp12} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-HIKER
               </div>
@@ -476,7 +500,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp13} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-CLASSIC
               </div>
@@ -514,7 +538,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp14} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-ADVENT
               </div>
@@ -552,7 +576,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp15} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-MYLES
               </div>
@@ -588,7 +612,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp16} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-COLBY
               </div>
@@ -624,7 +648,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp17} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-Clay
               </div>
@@ -658,7 +682,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp18} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-Coal
               </div>
@@ -692,7 +716,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp19} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-Mica
               </div>
@@ -726,7 +750,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp20} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Rubber Half-Boots w/ Steel Toe
               </div>
@@ -758,7 +782,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp21} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Rubber Half-Boots w/ Steel Toe and Mid-Sole
               </div>
@@ -790,7 +814,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp22} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Rubberboots w/o Steel Toe Men - Black
               </div>
@@ -874,7 +898,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp23} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Rubberboots w/ Steel Toe - Black
               </div>

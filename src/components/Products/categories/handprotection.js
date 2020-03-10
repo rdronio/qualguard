@@ -3,7 +3,20 @@ import { Container, Segment, Grid, Image } from "semantic-ui-react";
 
 import logo from "./images/qualguard-logo.png";
 
-// import hp1 from "./images/headprotection/Helmet-Pinlock-Yellow-300x300.jpg";
+import hp1 from "./images/handprotection/armor-900x900-300x300.png";
+import hp2 from "./images/handprotection/Builder-300x300.jpg";
+import hp3 from "./images/handprotection/XPro-300x300.jpg";
+import hp4 from "./images/handprotection/accura-900x900-300x300.png";
+import hp5 from "./images/handprotection/Conflex-300x300.jpg";
+import hp6 from "./images/handprotection/Nitrile-300x300.jpg";
+import hp7 from "./images/handprotection/Indl-1-300x300.jpg";
+import hp8 from "./images/handprotection/KG-Colored-300x300.jpg";
+import hp9 from "./images/handprotection/KG-Natural-300x300.jpg";
+import hp10 from "./images/handprotection/KG-RP-300x300.jpg";
+import hp11 from "./images/handprotection/KG-Dotted-300x300.jpg";
+import hp12 from "./images/handprotection/Maong-Gloves-300x300.jpg";
+// import hp13 from "./images/handprotection/Maong-Gloves-300x300.jpg";
+import hp14 from "./images/handprotection/Polycotton-300x300.jpg";
 
 export default class HandProtection extends Component {
   render() {
@@ -18,7 +31,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp1} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Gloves - Armor{" "}
               </div>
@@ -40,7 +53,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp2} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Gloves - Builder{" "}
               </div>
@@ -64,7 +77,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp3} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Gloves - X-Pro{" "}
               </div>
@@ -89,7 +102,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp4} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Gloves - Accura{" "}
               </div>
@@ -112,7 +125,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp5} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Gloves - Conflex
               </div>
@@ -136,7 +149,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp6} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Nitrile Gloves
               </div>
@@ -159,7 +172,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp7} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Industrial Gloves
               </div>
@@ -184,7 +197,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp8} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Cotton Knitted Gloves - Colored
               </div>
@@ -205,7 +218,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp9} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Cotton Knitted Gloves - Natural
               </div>
@@ -226,7 +239,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp10} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Cotton Knitted Gloves - Rubber Palm
               </div>
@@ -248,7 +261,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp11} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Cotton Knitted Gloves - Dotted Palm
               </div>
@@ -270,7 +283,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp12} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Maong Gloves
               </div>
@@ -308,7 +321,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp14} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Polycotton Gloves
               </div>

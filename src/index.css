@@ -508,7 +508,7 @@ code {
 }
 
 .product {
-  margin: 80px 0px;
+  margin: 80px 0 40px 0 !important;
   font-family: Bebas Neue;
   font-size: 40px;
   text-align: left;
@@ -516,8 +516,8 @@ code {
 }
 
 .column.product-content {
-  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
-    0 5px 22px 4px rgba(0, 0, 0, 0.048) !important;
+  box-shadow: 0 7px 8px -4px rgba(49, 49, 0, 0.08),
+    0 5px 22px 4px rgba(49, 49, 0, 0.048) !important;
   margin: 10px 10px;
   border-radius: 20px;
   padding: 40px !important;
@@ -527,6 +527,7 @@ code {
   margin: 0 auto;
 }
 .product-content-heading {
+  color: #313100;
   padding-top: 35px;
   font-family: Bebas Neue;
   line-height: 1.1;
@@ -552,6 +553,24 @@ code {
 .slick-dots {
   position: relative !important;
   margin-top: 25px !important;
+}
+
+.trafficroadsafety-trafficsigns {
+  text-align: left;
+  margin: 50px 0;
+}
+
+.trafficroadsafety-trafficsigns-heading {
+  font-size: 30px;
+  font-family: Bebas Neue;
+  margin-bottom: 20px;
+}
+
+.trafficroadsafety-trafficsigns-desc {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: Montserrat;
+  letter-spacing: 1px;
 }
 
 /**** Mobile Queries ******/
@@ -645,11 +664,15 @@ code {
   }
 
   .ui.stackable.grid > .wide.column.column.product-content {
-    box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
-      0 5px 22px 4px rgba(0, 0, 0, 0.048) !important;
+    box-shadow: 0 7px 8px -4px rgba(49, 49, 0, 0.08),
+      0 5px 22px 4px rgba(49, 49, 0, 0.048) !important;
     margin: 10px 100px !important;
     border-radius: 20px !important;
     padding: 40px !important;
+  }
+
+  .trafficroadsafety-trafficsigns-desc {
+    font-size: 14px;
   }
 
   /****** [ About Us ] *******/
@@ -712,8 +735,8 @@ code {
   /***** [ Product ] *******/
 
   .ui.stackable.grid > .wide.column.column.product-content {
-    box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
-      0 5px 22px 4px rgba(0, 0, 0, 0.048) !important;
+    box-shadow: 0 7px 8px -4px rgba(49, 49, 0, 0.08),
+      0 5px 22px 4px rgba(49, 49, 0, 0.048) !important;
     margin: 10px 30px !important;
     border-radius: 20px !important;
     padding: 40px !important;

@@ -17,6 +17,7 @@ import EyewashStation from "./categories/eyewashstation";
 import FireProtection from "./categories/fireprotection";
 import TrafficRoadSafety from "./categories/trafficroadsafety";
 import SafetySignages from "./categories/safetysignages";
+import OtherProducts from "./categories/otherproducts";
 
 export default class Content extends Component {
   state = {
@@ -337,6 +338,34 @@ export default class Content extends Component {
                       onClick={() => {
                         this.setState({
                           whichComponentToShow: "EyewashStation"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Other Products
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "OtherProducts"
                         });
                       }}
                     >
@@ -733,6 +762,34 @@ export default class Content extends Component {
                       className="product-categories-image"
                     />
                     <div className="product-content-categories-heading">
+                      Other Products
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "OtherProducts"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
                       Fire Protection
                     </div>
                     <button
@@ -1085,6 +1142,34 @@ export default class Content extends Component {
                       onClick={() => {
                         this.setState({
                           whichComponentToShow: "EyewashStation"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Other Products
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "OtherProducts"
                         });
                       }}
                     >
@@ -1481,6 +1566,34 @@ export default class Content extends Component {
                       className="product-categories-image"
                     />
                     <div className="product-content-categories-heading">
+                      Other Products
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "OtherProducts"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
                       Fire Protection
                     </div>
                     <button
@@ -1833,6 +1946,34 @@ export default class Content extends Component {
                       onClick={() => {
                         this.setState({
                           whichComponentToShow: "EyewashStation"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Other Products
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "OtherProducts"
                         });
                       }}
                     >
@@ -2229,6 +2370,34 @@ export default class Content extends Component {
                       className="product-categories-image"
                     />
                     <div className="product-content-categories-heading">
+                      Other Products
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "OtherProducts"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
                       Fire Protection
                     </div>
                     <button
@@ -2581,6 +2750,34 @@ export default class Content extends Component {
                       onClick={() => {
                         this.setState({
                           whichComponentToShow: "EyewashStation"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Other Products
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "OtherProducts"
                         });
                       }}
                     >
@@ -3351,6 +3548,34 @@ export default class Content extends Component {
                       className="product-categories-image"
                     />
                     <div className="product-content-categories-heading">
+                      Other Products
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "OtherProducts"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
                       Fire Protection
                     </div>
                     <button
@@ -3703,6 +3928,34 @@ export default class Content extends Component {
                       onClick={() => {
                         this.setState({
                           whichComponentToShow: "EyewashStation"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Other Products
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "OtherProducts"
                         });
                       }}
                     >
@@ -4099,6 +4352,34 @@ export default class Content extends Component {
                       className="product-categories-image"
                     />
                     <div className="product-content-categories-heading">
+                      Other Products
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "OtherProducts"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
                       Fire Protection
                     </div>
                     <button
@@ -4451,6 +4732,34 @@ export default class Content extends Component {
                       onClick={() => {
                         this.setState({
                           whichComponentToShow: "EyewashStation"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Other Products
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "OtherProducts"
                         });
                       }}
                     >
@@ -4847,6 +5156,34 @@ export default class Content extends Component {
                       className="product-categories-image"
                     />
                     <div className="product-content-categories-heading">
+                      Other Products
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "OtherProducts"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
                       Fire Protection
                     </div>
                     <button
@@ -4919,6 +5256,408 @@ export default class Content extends Component {
               </div>
             </Slider>
             <SafetySignages />
+          </Container>
+        </Segment>
+      );
+    } else if (this.state.whichComponentToShow === "OtherProducts") {
+      return (
+        <Segment className="content-product" vertical textAlign="center">
+          <Container>
+            <Slider {...settings}>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Head Protection
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "HeadProtection"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Eye Protection
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "EyeProtection"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Face Protection
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "FaceProtection"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Hearing Protection
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "HearingProtection"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Respiratory Protection
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "RespiratoryProtection"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Body Protection
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "BodyProtection"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Fall Protection
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "FallProtection"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Hand Protection
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "HandProtection"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Foot Protection
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "FootProtection"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Eyewash Station
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "EyewashStation"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Other Products
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "OtherProducts"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Fire Protection
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "FireProtection"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Traffic and Road Safety
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "TrafficRoadSafety"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+              <div>
+                <Grid stackable columns={1}>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={16}
+                    computer={16}
+                    className="product-content-categories"
+                  >
+                    <Image
+                      src={logo}
+                      size="tiny"
+                      className="product-categories-image"
+                    />
+                    <div className="product-content-categories-heading">
+                      Safety Signages
+                    </div>
+                    <button
+                      onClick={() => {
+                        this.setState({
+                          whichComponentToShow: "SafetySignages"
+                        });
+                      }}
+                    >
+                      Show
+                    </button>
+                  </Grid.Column>
+                </Grid>
+              </div>
+            </Slider>
+            <OtherProducts />
           </Container>
         </Segment>
       );
