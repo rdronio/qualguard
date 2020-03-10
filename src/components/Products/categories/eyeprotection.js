@@ -3,6 +3,21 @@ import { Container, Segment, Grid, Image } from "semantic-ui-react";
 
 import logo from "./images/qualguard-logo.png";
 
+import ep1 from "./images/eyeprotection/Laser100c-300x300.jpg";
+// import ep1 from "./images/eyeprotection/Laser100c-300x300.jpg";
+import ep3 from "./images/eyeprotection/Eclispsec-300x300.jpg";
+import ep4 from "./images/eyeprotection/Pheobus-1-300x300.jpg";
+import ep5 from "./images/eyeprotection/Laser130-300x300.jpg";
+import ep6 from "./images/eyeprotection/Cobalt-1-300x300.jpg";
+import ep10 from "./images/eyeprotection/spk-oriana-safety-spec-900x900-300x300.png";
+import ep12 from "./images/eyeprotection/Cyclops-1-300x300.jpg";
+import ep13 from "./images/eyeprotection/V100-300x300.jpg";
+import ep14 from "./images/eyeprotection/Cord-300x300.jpg";
+import ep15 from "./images/eyeprotection/Rack-300x300.jpg";
+import ep16 from "./images/eyeprotection/V200-300x300.jpg";
+import ep17 from "./images/eyeprotection/spk-spectacle-case-900x900-300x300.png";
+import ep18 from "./images/eyeprotection/WGoggles-300x300.jpg";
+
 export default class EyeProtection extends Component {
   render() {
     return (
@@ -16,9 +31,9 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep1} size="small" className="product-image" />
               <div className="product-content-heading">
-                Splderklng Laser 100 Clear Spectacles
+                Spiderking Laser 100 Clear Spectacles
               </div>
               <div className="product-desc">
                 <ul>
@@ -62,7 +77,7 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep3} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking - Eclipse Clear{" "}
               </div>
@@ -86,7 +101,7 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep4} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 Spiderking -Pheobus Safety Spectacles{" "}
@@ -111,7 +126,7 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep5} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 Spiderking - Laser 130 Clear Spectacles{" "}
@@ -136,7 +151,7 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep6} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 Spiderking - Cobalt Safety Spectacles Heavy-duty, Impact
@@ -235,7 +250,7 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep10} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 Spiderking - Oriana Safety Spectacles{" "}
@@ -285,7 +300,7 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep12} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 Spiderking - Cyclops Safety Spectacles{" "}
@@ -310,10 +325,10 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep13} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
-                Spiderking Vl00 Safety Goggles{" "}
+                Spiderking V100 Safety Goggles{" "}
               </div>
               <div className="product-desc">
                 <ul>
@@ -332,14 +347,14 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep14} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 Spiderking Spectacle Cord{" "}
               </div>
               <div className="product-desc">
                 <ul>
-                  <li> Adjustable neck string  </li>
+                  <li> Adjustable neck string </li>
                   <li> Nylon/Polyester material </li>
                 </ul>
               </div>
@@ -350,14 +365,14 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep15} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 Spiderking Spectacles Diplay flack{" "}
               </div>
               <div className="product-desc">
                 <ul>
-                  <li> Clean and Modern-look  </li>
+                  <li> Clean and Modern-look </li>
                   <li> 5-layer rack with mirror </li>
                   <li> Made from Acrylic </li>
                 </ul>
@@ -369,18 +384,18 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep16} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 Spiderking V200 Safety Goggles{" "}
               </div>
               <div className="product-desc">
                 <ul>
-                  <li> Heavy-duly, Impact Resistant  </li>
-                  <li> Polycarbonate Clear lens, Polyester headband  </li>
+                  <li> Heavy-duly, Impact Resistant </li>
+                  <li> Polycarbonate Clear lens, Polyester headband </li>
                   <li> Soft PVC frame </li>
                   <li> Indirect Ventilation System </li>
-                  <li> UV protection, Anti-fog and Anti-scratch  </li>
+                  <li> UV protection, Anti-fog and Anti-scratch </li>
                   <li> CE EN 166 Compliant </li>
                   <li> ANSI Z87.1 Compliant </li>
                 </ul>
@@ -392,7 +407,7 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep17} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 Spiderking Spectacle Case{" "}
@@ -411,7 +426,7 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep18} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 Spiderking Welding Goggles{" "}
@@ -419,9 +434,9 @@ export default class EyeProtection extends Component {
               <div className="product-desc">
                 <ul>
                   <li> Heavy-duty, Impact Resistant </li>
-                  <li> Polycarbonate we lding lens, Polyester headband  </li>
+                  <li> Polycarbonate we lding lens, Polyester headband </li>
                   <li> Soft PVC frame </li>
-                  <li> Indirect Ventilation System  </li>
+                  <li> Indirect Ventilation System </li>
                   <li> CE EN 166 Compliant </li>
                   <li> ANSI Z87.1 Compliant </li>
                 </ul>

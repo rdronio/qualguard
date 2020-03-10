@@ -3,6 +3,12 @@ import { Container, Segment, Grid, Image } from "semantic-ui-react";
 
 import logo from "./images/qualguard-logo.png";
 
+import fp1 from "./images/faceprotection/spk-weldingmask-with-bracket-900x900-300x300.png";
+import fp2 from "./images/faceprotection/FSVwBG-300x300.jpg";
+import fp3 from "./images/faceprotection/Bracket-300x300.jpg";
+import fp4 from "./images/faceprotection/WMwRatchet-300x300.jpg";
+import fp6 from "./images/faceprotection/faceshield-visor-900x900-300x300.png";
+
 export default class FaceProtection extends Component {
   render() {
     return (
@@ -16,8 +22,10 @@ export default class FaceProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Spiderking Welding Mask with Bracket</div>
+              <Image src={fp1} size="small" className="product-image" />
+              <div className="product-content-heading">
+                Spiderking Welding Mask with Bracket
+              </div>
               <div className="product-desc">
                 <ul>
                   <li> Heavy-duty design </li>
@@ -37,11 +45,18 @@ export default class FaceProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading"> Spiderking Faceshield VISOr with Browguard </div>
+              <Image src={fp2} size="small" className="product-image" />
+              <div className="product-content-heading">
+                {" "}
+                Spiderking Faceshield Visor with Browguard{" "}
+              </div>
               <div className="product-desc">
                 <ul>
-                  <li> Combination of Spiderking Browguard and Spiderking Faceshield Visor </li>
+                  <li>
+                    {" "}
+                    Combination of Spiderking Browguard and Spiderking
+                    Faceshield Visor{" "}
+                  </li>
                 </ul>
               </div>
             </Grid.Column>
@@ -51,13 +66,15 @@ export default class FaceProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Spiderking Faceshield Bracket</div>
+              <Image src={fp3} size="small" className="product-image" />
+              <div className="product-content-heading">
+                Spiderking Faceshield Bracket
+              </div>
               <div className="product-desc">
                 <ul>
-                  <li> Heavy-duty, Impact Resistant  </li>
+                  <li> Heavy-duty, Impact Resistant </li>
                   <li> Safety helmet attachment </li>
-                  <li> Made from ABS [Acrylonitrile butadiene styrene)  </li>
+                  <li> Made from ABS [Acrylonitrile butadiene styrene) </li>
                   <li> CE EN 166 Compliant </li>
                   <li> ANSI Z89.1 Compliant </li>
                 </ul>
@@ -69,17 +86,17 @@ export default class FaceProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Spiderking Welding Mask, Rachel Type -
-Heavy Medium
-</div>
+              <Image src={fp4} size="small" className="product-image" />
+              <div className="product-content-heading">
+                Spiderking Welding Mask, Rachel Type - Heavy Medium
+              </div>
               <div className="product-desc">
                 <ul>
                   <li> Heavy-duty design </li>
                   <li> Ratchet Type locking mechanism </li>
                   <li> Made from PP (Polypropylene) </li>
                   <li> Lift-up front lens </li>
-                  <li> Lens Size: 4.25"x2" or l 08mm x 51mm  </li>
+                  <li> Lens Size: 4.25"x2" or l 08mm x 51mm </li>
                   <li> CE EN 175 Compliant </li>
                   <li> ANSI Z89.1 Compliant </li>
                 </ul>
@@ -92,12 +109,14 @@ Heavy Medium
               className="product-content"
             >
               <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Spiderking Browguard</div>
+              <div className="product-content-heading">
+                Spiderking Browguard
+              </div>
               <div className="product-desc">
                 <ul>
                   <li> Heavy-duty, Impact Resistant </li>
-                  <li> Ratchet type locking mechanism  </li>
-                  <li> Made from ABS (Acrylonitrile butadiene styrene)  </li>
+                  <li> Ratchet type locking mechanism </li>
+                  <li> Made from ABS (Acrylonitrile butadiene styrene) </li>
                   <li> CE EN 166 Compliant </li>
                   <li> ANSI Z89.1 Compliant </li>
                 </ul>
@@ -109,15 +128,21 @@ Heavy Medium
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">Spidertcing Faceshield Visor</div>
+              <Image src={fp6} size="small" className="product-image" />
+              <div className="product-content-heading">
+                Spidertcing Faceshield Visor
+              </div>
               <div className="product-desc">
                 <ul>
                   <li> Heavy-duty design </li>
-                  <li> Provide protection against high impact, splash of liquid, heat, molten metal and hot solids. </li>
-                  <li> Made  from  PC  (Polycarbonate)  </li>
-                  <li> Size: 8" x 15.5 " or 203mm x 393mm   </li>
-                  <li> Temperature range:  -5°C  to  55°C  </li>
+                  <li>
+                    {" "}
+                    Provide protection against high impact, splash of liquid,
+                    heat, molten metal and hot solids.{" "}
+                  </li>
+                  <li> Made from PC (Polycarbonate) </li>
+                  <li> Size: 8" x 15.5 " or 203mm x 393mm </li>
+                  <li> Temperature range: -5°C to 55°C </li>
                   <li> CE EN 166 Compliant </li>
                   <li> ANSI Z87.1 Compliant </li>
                 </ul>
