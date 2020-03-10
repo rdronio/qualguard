@@ -484,6 +484,13 @@ code {
   padding: 20px;
 }
 
+.product-features {
+  text-align: left;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
 .product-content-categories button {
   background: #313100;
   padding: 10px 40px;
