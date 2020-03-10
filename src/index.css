@@ -573,6 +573,45 @@ code {
   letter-spacing: 1px;
 }
 
+.safetysignages-container {
+  text-align: left;
+  margin: 50px 0;
+}
+
+.safetysignages-heading {
+  font-size: 30px;
+  font-family: Bebas Neue;
+  margin-bottom: 20px;
+}
+
+.safetysignages-desc-container {
+  display: flex;
+}
+
+.safetysignages-container-size,
+.safetysignages-container-print,
+.safetysignages-container-substrate {
+  flex: 1;
+}
+
+.safetysignages-container-size-heading,
+.safetysignages-container-print-heading,
+.safetysignages-container-substrate-heading {
+  margin-top: 20px;
+  font-family: Bebas Neue;
+  font-size: 24px;
+}
+
+.safetysignages-container-size-desc,
+.safetysignages-container-print-desc,
+.safetysignages-container-substrate-desc {
+  margin-top: 10px;
+  font-family: Montserrat;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
 /**** Mobile Queries ******/
 
 @media only screen and (max-width: 991px) {
@@ -744,6 +783,10 @@ code {
 
   .segment.content-product {
     padding: 75px 0 !important;
+  }
+
+  .safetysignages-desc-container {
+    flex-direction: column;
   }
 
   /****** [ About Us ] *******/
