@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
+import "./web.config";
+
 // Fonts
 import "./fonts/BebasNeue-Regular.otf";
 import "./fonts/Bebas-Regular.otf";

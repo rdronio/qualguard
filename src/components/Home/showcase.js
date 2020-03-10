@@ -16,13 +16,13 @@ export default class Showcase extends Component {
         }}
       >
         <Container text textAlign="left" className="showcase-content">
-          <div className="showcase-content-subheading">
-            Lorem ipsum dolor sit amet
-          </div>
-          <div className="showcase-content-heading">Lorem ipsum dolor sit</div>
+          <div className="showcase-content-subheading">Why QualGuard?</div>
+          <div className="showcase-content-heading">QualGuard</div>
           <div className="showcase-content-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            is committed to personal safety in the workplace, the job site and
+            the home. We recommend solutions to help you keep your business
+            compliant and your employees work-ready and safe, saving time and
+            reducing cost.
           </div>
           <div className="showcase-content-button">
             <div className="showcase-content-button-leftcontainer">
