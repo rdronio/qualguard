@@ -36,9 +36,7 @@ export default class Services extends Component {
                   <div>
                     <div className="service-title"> Quality </div>
                     <div className="service-desc">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Providing Premium, High-Quality Products and Services.
                     </div>
                   </div>
                 </Grid.Column>
@@ -68,9 +66,8 @@ export default class Services extends Component {
                   <div>
                     <div className="service-title"> On Time </div>
                     <div className="service-desc">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Meet the customers’ demands and deliver the services or
+                      products to the customers punctually.
                     </div>
                   </div>
                 </Grid.Column>
@@ -103,9 +100,7 @@ export default class Services extends Component {
                   <div>
                     <div className="service-title"> Reliable </div>
                     <div className="service-desc">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Consistently good in quality and able to be trusted.
                     </div>
                   </div>
                 </Grid.Column>
@@ -135,9 +130,8 @@ export default class Services extends Component {
                   <div>
                     <div className="service-title"> Competitive </div>
                     <div className="service-desc">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Offering consumers greater value, by means of lower prices
+                      or by providing greater benefits and service.
                     </div>
                   </div>
                 </Grid.Column>

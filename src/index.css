@@ -94,7 +94,7 @@ code {
 
 .showcase-content-heading {
   font-family: Bebas Neue;
-  letter-spacing: 0.5px;
+  letter-spacing: 5px;
   font-size: 80px;
   color: #fff;
   line-height: 1;
@@ -166,6 +166,7 @@ code {
   line-height: 1;
   text-align: left;
   font-size: 30px;
+  letter-spacing: 1px;
 }
 .service-title::after {
   content: "";
@@ -180,6 +181,7 @@ code {
   font-family: Montserrat;
   text-align: left;
   font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .grid.services-content {
