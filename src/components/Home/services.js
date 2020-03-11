@@ -100,7 +100,8 @@ export default class Services extends Component {
                   <div>
                     <div className="service-title"> Reliable </div>
                     <div className="service-desc">
-                      Consistently good in quality and able to be trusted.
+                      Proven and Tested. State of the art innovation 100% Life
+                      Saving.
                     </div>
                   </div>
                 </Grid.Column>
