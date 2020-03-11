@@ -22,7 +22,7 @@ export default class Showcase extends Component {
             Security <br /> Integrity <br /> Reliability <br />
           </div>
           <div className="showcase-content-desc">
-            PROVIDING PROTECTION AND INNOVATION
+            PROVIDING PROTECTION & INNOVATION
           </div>
           <div className="showcase-content-button">
             <Link to="/products">
