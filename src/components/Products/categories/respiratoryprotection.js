@@ -13,6 +13,7 @@ import rp7 from "./images/respiratoryprotection/2SRespirator-300x300.jpg";
 import rp8 from "./images/respiratoryprotection/2TRespirator-300x300.jpg";
 import rp9 from "./images/respiratoryprotection/1TRespirator-300x300.jpg";
 import rp10 from "./images/respiratoryprotection/spiderking-catridge-s-431a-300x300.png";
+import rp11 from "./images/respiratoryprotection/spiderkingcartridges-dust.JPG";
 import rp12 from "./images/respiratoryprotection/TChemical-300x300.jpg";
 
 export default class RespiratoryProtection extends Component {
@@ -322,7 +323,7 @@ export default class RespiratoryProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={rp11} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Cartridges-Dust
               </div>

@@ -4,6 +4,8 @@ import { Container, Segment, Grid, Image } from "semantic-ui-react";
 import logo from "./images/qualguard-logo.png";
 
 import hp1 from "./images/hearingprotection/Braige-R-300x300.jpg";
+import hp2 from "./images/hearingprotection/spiderkingbralge-200earmuff.JPG";
+import hp3 from "./images/hearingprotection/spiderkingasaph-01helmetmountedearmuffs.JPG";
 import hp4 from "./images/hearingprotection/Mavis-R-300x300.jpg";
 import hp5 from "./images/hearingprotection/Mavis-DC-300x300.jpg";
 import hp6 from "./images/hearingprotection/Mavis-D-300x300.jpg";
@@ -44,7 +46,7 @@ export default class HearingProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp2} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Bralge-200 Earmuff
               </div>
@@ -66,7 +68,7 @@ export default class HearingProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp3} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Asaph-01 Helmet Mounted Earmuffs
               </div>

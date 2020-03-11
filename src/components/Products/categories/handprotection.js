@@ -15,7 +15,7 @@ import hp9 from "./images/handprotection/KG-Natural-300x300.jpg";
 import hp10 from "./images/handprotection/KG-RP-300x300.jpg";
 import hp11 from "./images/handprotection/KG-Dotted-300x300.jpg";
 import hp12 from "./images/handprotection/Maong-Gloves-300x300.jpg";
-// import hp13 from "./images/handprotection/Maong-Gloves-300x300.jpg";
+import hp13 from "./images/handprotection/spiderkingkevlarcutresistantgloves.JPG";
 import hp14 from "./images/handprotection/Polycotton-300x300.jpg";
 
 export default class HandProtection extends Component {

@@ -14,15 +14,15 @@ import bp8 from "./images/bodyprotection/BackSupport-300x300.jpg";
 import bp9 from "./images/bodyprotection/PEL-300x300.jpg";
 import bp10 from "./images/bodyprotection/ColdStorage-300x300.jpg";
 import bp11 from "./images/bodyprotection/RCPVC-O-300x300.jpg";
-// import bp12 from "./images/bodyprotection/ColdStorage-300x300.jpg";
+import bp12 from "./images/bodyprotection/spiderkingraincoatpantsandjacketnylon.JPG";
 import bp13 from "./images/bodyprotection/raincoat-kneelength-900x900-300x300.png";
 import bp14 from "./images/bodyprotection/RC-PCHO-PVC-O-300x300.jpg";
 import bp15 from "./images/bodyprotection/Welding-Jacket-300x300.jpg";
 import bp16 from "./images/bodyprotection/Welding-Pants-300x300.jpg";
 import bp17 from "./images/bodyprotection/Welding-Apron-Sleeves-300x300.jpg";
-// import bp18 from "./images/bodyprotection/Welding-Pants-300x300.jpg";
+import bp18 from "./images/bodyprotection/spiderkingleatherapronsleeveless.JPG";
 import bp19 from "./images/bodyprotection/Welding-Maong-Sleeve-300x300.jpg";
-// import bp20 from "./images/bodyprotection/Welding-Pants-300x300.jpg";
+import bp20 from "./images/bodyprotection/spiderkingapronmaongsleeveless.JPG";
 
 export default class BodyProtection extends Component {
   render() {
@@ -258,7 +258,7 @@ export default class BodyProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={bp12} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Raincoat Pants and Jacket Nylon
               </div>
@@ -382,7 +382,7 @@ export default class BodyProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={bp18} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Leather Apron Sleeveless
               </div>
@@ -422,7 +422,7 @@ export default class BodyProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={bp20} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Apron Maong Sleeveless
               </div>

@@ -7,6 +7,7 @@ import fp1 from "./images/faceprotection/spk-weldingmask-with-bracket-900x900-30
 import fp2 from "./images/faceprotection/FSVwBG-300x300.jpg";
 import fp3 from "./images/faceprotection/Bracket-300x300.jpg";
 import fp4 from "./images/faceprotection/WMwRatchet-300x300.jpg";
+import fp5 from "./images/faceprotection/spiderkingbrowguard.JPG";
 import fp6 from "./images/faceprotection/faceshield-visor-900x900-300x300.png";
 
 export default class FaceProtection extends Component {
@@ -108,7 +109,7 @@ export default class FaceProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp5} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Browguard
               </div>

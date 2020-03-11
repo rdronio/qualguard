@@ -3,6 +3,7 @@ import { Container, Segment, Grid, Image } from "semantic-ui-react";
 
 import logo from "./images/qualguard-logo.png";
 
+import fp1 from "./images/fallprotection/spiderkingfullbodyharnesswithbacksupport.JPG";
 import fp2 from "./images/fallprotection/4D-300x300.jpg";
 import fp3 from "./images/fallprotection/1D-300x300.jpg";
 import fp4 from "./images/fallprotection/1D-300x300.jpg";
@@ -25,7 +26,7 @@ export default class FallProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp1} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Full Body Harness with Back Support{" "}
               </div>

@@ -44,10 +44,7 @@ export default class Customers extends Component {
                     className="customers-desc-content"
                   >
                     <div>
-                      <div className="customers-title">
-                        {" "}
-                        Lorem ipsum dolor sit{" "}
-                      </div>
+                      <div className="customers-title"> Corporations </div>
                       <div className="customers-desc">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -79,10 +76,7 @@ export default class Customers extends Component {
                     className="customers-desc-content"
                   >
                     <div>
-                      <div className="customers-title">
-                        {" "}
-                        Lorem ipsum dolor sit{" "}
-                      </div>
+                      <div className="customers-title"> Dealers </div>
                       <div className="customers-desc">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -114,10 +108,7 @@ export default class Customers extends Component {
                     className="customers-desc-content"
                   >
                     <div>
-                      <div className="customers-title">
-                        {" "}
-                        Lorem ipsum dolor sit{" "}
-                      </div>
+                      <div className="customers-title"> Trading Companies </div>
                       <div className="customers-desc">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore

@@ -5,10 +5,10 @@ import logo from "./images/qualguard-logo.png";
 
 import hp1 from "./images/headprotection/Helmet-Pinlock-Yellow-300x300.jpg";
 import hp2 from "./images/headprotection/Helmet-Ratchet-Yellow-300x300.jpg";
-// import hp from "./images/headprotection/Helmet-Ratchet-Yellow-300x300.jpg";
+import hp3 from "./images/headprotection/spiderkinghardhatwithairvent.JPG";
 import hp4 from "./images/headprotection/full-brim-hard-hat-900x900-300x300.png";
 import hp5 from "./images/headprotection/Pinlock-300x300.jpg";
-// import hp5 from "./images/headprotection/Pinlock-300x300.jpg";
+import hp6 from "./images/headprotection/spiderkingheadsuspensionratchettype.JPG";
 import hp7 from "./images/headprotection/Chinstrap-1-300x300.jpg";
 
 export default class HeadProtection extends Component {
@@ -74,7 +74,7 @@ export default class HeadProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp3} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Hardhat with Airvent
               </div>
@@ -135,7 +135,7 @@ export default class HeadProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp6} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Head Suspension Ratchet Type
               </div>

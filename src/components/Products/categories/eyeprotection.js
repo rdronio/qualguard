@@ -4,12 +4,16 @@ import { Container, Segment, Grid, Image } from "semantic-ui-react";
 import logo from "./images/qualguard-logo.png";
 
 import ep1 from "./images/eyeprotection/Laser100c-300x300.jpg";
-// import ep1 from "./images/eyeprotection/Laser100c-300x300.jpg";
+import ep2 from "./images/eyeprotection/spiderking-laser110clearspectacles.JPG";
 import ep3 from "./images/eyeprotection/Eclispsec-300x300.jpg";
 import ep4 from "./images/eyeprotection/Pheobus-1-300x300.jpg";
 import ep5 from "./images/eyeprotection/Laser130-300x300.jpg";
 import ep6 from "./images/eyeprotection/Cobalt-1-300x300.jpg";
+import ep7 from "./images/eyeprotection/spiderkinglaser100smokespectacles.JPG";
+import ep8 from "./images/eyeprotection/spiderkinglaser110smokespectacles.JPG";
+import ep9 from "./images/eyeprotection/spiderking-eclipsesmoke.JPG";
 import ep10 from "./images/eyeprotection/spk-oriana-safety-spec-900x900-300x300.png";
+import ep11 from "./images/eyeprotection/spiderking-cyrusclearspectacles.JPG";
 import ep12 from "./images/eyeprotection/Cyclops-1-300x300.jpg";
 import ep13 from "./images/eyeprotection/V100-300x300.jpg";
 import ep14 from "./images/eyeprotection/Cord-300x300.jpg";
@@ -54,7 +58,7 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep2} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking - Laser 110 Clear Spectacles
               </div>
@@ -177,7 +181,7 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep7} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 Spiderking Laser 100 Smoke Spectacles{" "}
@@ -201,7 +205,7 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep8} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 Spiderking Laser 110 Smoke Spectacles{" "}
@@ -225,7 +229,7 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep9} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 Spiderking - Eclipse Smoke{" "}
@@ -275,7 +279,7 @@ export default class EyeProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ep11} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 Spiderking - Cyrus Clear Spectacles{" "}

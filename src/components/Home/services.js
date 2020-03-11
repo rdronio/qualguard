@@ -26,7 +26,7 @@ export default class Services extends Component {
                   className="services-desc-content"
                 >
                   <div>
-                    <div className="service-title"> Lorem ipsum dolor sit </div>
+                    <div className="service-title"> Quality </div>
                     <div className="service-desc">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -54,7 +54,7 @@ export default class Services extends Component {
                   className="services-desc-content"
                 >
                   <div>
-                    <div className="service-title"> Lorem ipsum dolor sit </div>
+                    <div className="service-title"> On Time </div>
                     <div className="service-desc">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -85,7 +85,7 @@ export default class Services extends Component {
                   className="services-desc-content"
                 >
                   <div>
-                    <div className="service-title"> Lorem ipsum dolor sit </div>
+                    <div className="service-title"> Reliable </div>
                     <div className="service-desc">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -113,7 +113,7 @@ export default class Services extends Component {
                   className="services-desc-content"
                 >
                   <div>
-                    <div className="service-title"> Lorem ipsum dolor sit </div>
+                    <div className="service-title"> Competitive </div>
                     <div className="service-desc">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
