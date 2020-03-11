@@ -19,8 +19,8 @@ export default class Footer extends Component {
               <div className="footer-desc">
                 <p>
                   {" "}
-                  Lorem ipsum dolor sit amet <br /> +639123456789 <br />{" "}
-                  +639123456789 <br /> +639123456789
+                  info@qualguard.com <br /> +639123456789 <br /> +639123456789{" "}
+                  <br /> +639123456789
                 </p>
               </div>
             </Grid.Column>
@@ -28,7 +28,8 @@ export default class Footer extends Component {
             <Grid.Column width="4" className="">
               <div className="footer-title"> Address </div>
               <div className="footer-desc">
-                Main: Lorem ipsum dolor sit amet
+                Main: Carmelray Industrail Park 1, Unit 1, The Junction Strip
+                Mall, Carmelray Ave, Corner Wisdom Ave, Calamba, Laguna
               </div>
             </Grid.Column>
 
