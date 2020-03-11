@@ -19,7 +19,7 @@ export default class Showcase extends Component {
         <Container text textAlign="left" className="showcase-content">
           {/* <div className="showcase-content-subheading">Why QualGuard?</div> */}
           <div className="showcase-content-heading">
-            Safety <br /> Quality <br /> Efficiency <br />
+            Security <br /> Integrity <br /> Reliability <br />
           </div>
           <div className="showcase-content-desc">
             PROVIDING PROTECTION AND INNOVATION
