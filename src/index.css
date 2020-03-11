@@ -579,9 +579,18 @@ code {
 }
 
 .safetysignages-heading {
-  font-size: 30px;
+  font-size: 35px;
   font-family: Bebas Neue;
+  letter-spacing: 1px;
   margin-bottom: 20px;
+}
+
+.safetysignages-heading-product {
+  font-size: 25px;
+  text-align: left;
+  font-family: Bebas Neue;
+  color: #313100;
+  margin: 35px;
 }
 
 .safetysignages-desc-container {

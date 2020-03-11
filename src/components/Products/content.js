@@ -5316,7 +5316,7 @@ export default class Content extends Component {
                     className="product-content-categories"
                   >
                     <Image
-                      src={logo}
+                      src={headprotection_logo}
                       size="tiny"
                       className="product-categories-image"
                     />
@@ -5344,7 +5344,7 @@ export default class Content extends Component {
                     className="product-content-categories"
                   >
                     <Image
-                      src={logo}
+                      src={eyeprotection_logo}
                       size="tiny"
                       className="product-categories-image"
                     />
@@ -5372,7 +5372,7 @@ export default class Content extends Component {
                     className="product-content-categories"
                   >
                     <Image
-                      src={logo}
+                      src={faceprotection_logo}
                       size="tiny"
                       className="product-categories-image"
                     />
@@ -5400,7 +5400,7 @@ export default class Content extends Component {
                     className="product-content-categories"
                   >
                     <Image
-                      src={logo}
+                      src={hearingprotection_logo}
                       size="tiny"
                       className="product-categories-image"
                     />
@@ -5428,7 +5428,7 @@ export default class Content extends Component {
                     className="product-content-categories"
                   >
                     <Image
-                      src={logo}
+                      src={respiratoryprotection_logo}
                       size="tiny"
                       className="product-categories-image"
                     />
@@ -5456,7 +5456,7 @@ export default class Content extends Component {
                     className="product-content-categories"
                   >
                     <Image
-                      src={logo}
+                      src={bodyprotection_logo}
                       size="tiny"
                       className="product-categories-image"
                     />
@@ -5484,7 +5484,7 @@ export default class Content extends Component {
                     className="product-content-categories"
                   >
                     <Image
-                      src={logo}
+                      src={fallprotection_logo}
                       size="tiny"
                       className="product-categories-image"
                     />
@@ -5512,7 +5512,7 @@ export default class Content extends Component {
                     className="product-content-categories"
                   >
                     <Image
-                      src={logo}
+                      src={handprotection_logo}
                       size="tiny"
                       className="product-categories-image"
                     />
@@ -5540,7 +5540,7 @@ export default class Content extends Component {
                     className="product-content-categories"
                   >
                     <Image
-                      src={logo}
+                      src={footprotection_logo}
                       size="tiny"
                       className="product-categories-image"
                     />
@@ -5568,7 +5568,7 @@ export default class Content extends Component {
                     className="product-content-categories"
                   >
                     <Image
-                      src={logo}
+                      src={eyewashstation_logo}
                       size="tiny"
                       className="product-categories-image"
                     />
@@ -5596,7 +5596,7 @@ export default class Content extends Component {
                     className="product-content-categories"
                   >
                     <Image
-                      src={logo}
+                      src={otherproducts_logo}
                       size="tiny"
                       className="product-categories-image"
                     />
@@ -5624,7 +5624,7 @@ export default class Content extends Component {
                     className="product-content-categories"
                   >
                     <Image
-                      src={logo}
+                      src={fireprotection_logo}
                       size="tiny"
                       className="product-categories-image"
                     />
@@ -5652,7 +5652,7 @@ export default class Content extends Component {
                     className="product-content-categories"
                   >
                     <Image
-                      src={logo}
+                      src={trafficroadsafety_logo}
                       size="tiny"
                       className="product-categories-image"
                     />
@@ -5680,7 +5680,7 @@ export default class Content extends Component {
                     className="product-content-categories"
                   >
                     <Image
-                      src={logo}
+                      src={safetysignages_logo}
                       size="tiny"
                       className="product-categories-image"
                     />

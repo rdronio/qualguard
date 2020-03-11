@@ -18,6 +18,19 @@ import hp12 from "./images/handprotection/Maong-Gloves-300x300.jpg";
 import hp13 from "./images/handprotection/spiderkingkevlarcutresistantgloves.JPG";
 import hp14 from "./images/handprotection/Polycotton-300x300.jpg";
 
+import hp15 from "./images/handprotection/spiderkingleathergloves.JPG";
+import hp16 from "./images/handprotection/spiderkingweldingworkinggloves.JPG";
+import hp17 from "./images/handprotection/spiderkingleatherworkinggloves.JPG";
+import hp18 from "./images/handprotection/spiderkingleathergloves7SPKWGCHF.JPG";
+import hp19 from "./images/handprotection/spiderkingleathergloves7SPKWGCB.JPG";
+import hp20 from "./images/handprotection/spiderkingweldingworkinggloves7SPKWG7015.JPG";
+import hp21 from "./images/handprotection/spiderkingleathergloves7SPKWG701B.JPG";
+import hp22 from "./images/handprotection/spiderkingleathergloves7SPKWG501.JPG";
+import hp23 from "./images/handprotection/spiderkingleathergloves7SPKWG301.JPG";
+import hp24 from "./images/handprotection/spiderkingleathergloves7SPKWG305.JPG";
+import hp25 from "./images/handprotection/spiderkingleathergloves7SPKWG5G.JPG";
+import hp26 from "./images/handprotection/spiderkingTIGweldinggloves.JPG";
+
 export default class HandProtection extends Component {
   render() {
     return (
@@ -302,7 +315,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp13} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Kevlar Cut Resistant Gloves
               </div>
@@ -341,7 +354,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp15} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Leather Gloves
               </div>
@@ -362,7 +375,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp16} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Welding/Working Gloves
               </div>
@@ -383,7 +396,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp17} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Leather Working Gloves
               </div>
@@ -404,7 +417,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp18} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Leather Gloves
               </div>
@@ -426,7 +439,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp19} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Leather Gloves
               </div>
@@ -448,7 +461,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp20} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Leather Gloves
               </div>
@@ -469,7 +482,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp21} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Leather Gloves
               </div>
@@ -490,7 +503,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp22} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Leather Gloves
               </div>
@@ -511,29 +524,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
-              <div className="product-content-heading">
-                Spiderking Leather Gloves
-              </div>
-              <div className="product-desc">
-                <ul>
-                  <li> Heavy Duty, Dextrous </li>
-                  <li> Heat resistant </li>
-                  <li> Good against Abrasion </li>
-                  <li> Excellent for Welding works </li>
-                  <li> Cow Hide Material </li>
-                  <li> 3-Finger Design </li>
-                  <li> Length: 40cm </li>
-                </ul>
-              </div>
-            </Grid.Column>
-            <Grid.Column
-              mobile={16}
-              tablet={16}
-              computer={5}
-              className="product-content"
-            >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp23} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Leather Gloves
               </div>
@@ -555,7 +546,29 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp24} size="small" className="product-image" />
+              <div className="product-content-heading">
+                Spiderking Leather Gloves
+              </div>
+              <div className="product-desc">
+                <ul>
+                  <li> Heavy Duty, Dextrous </li>
+                  <li> Heat resistant </li>
+                  <li> Good against Abrasion </li>
+                  <li> Excellent for Welding works </li>
+                  <li> Cow Hide Material </li>
+                  <li> 3-Finger Design </li>
+                  <li> Length: 40cm </li>
+                </ul>
+              </div>
+            </Grid.Column>
+            <Grid.Column
+              mobile={16}
+              tablet={16}
+              computer={5}
+              className="product-content"
+            >
+              <Image src={hp25} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Leather Gloves
               </div>
@@ -576,7 +589,7 @@ export default class HandProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={hp26} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking TIG Welding Gloves
               </div>

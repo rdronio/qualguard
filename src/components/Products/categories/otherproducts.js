@@ -4,12 +4,13 @@ import { Container, Segment, Grid, Image } from "semantic-ui-react";
 import logo from "./images/qualguard-logo.png";
 
 import op1 from "./images/otherproducts/Rescue-Can-1-300x300.jpg";
-// import op2 from "./images/otherproducts/Rescue-Can-1-300x300.jpg";
+import op2 from "./images/otherproducts/spiderkingdangertape-thick.JPG";
 import op3 from "./images/otherproducts/FAK-25-1-300x300.jpg";
 import op4 from "./images/otherproducts/Mouth-Cover-1-300x300.jpg";
 import op5 from "./images/otherproducts/Life-Ring-1-300x300.jpg";
 import op6 from "./images/otherproducts/Caution-Tape-300x300.jpg";
 import op7 from "./images/otherproducts/head-lamp-900-900-300x300.jpg";
+import op8 from "./images/otherproducts/spiderkingleatherfootprotector.JPG";
 
 export default class OtherProducts extends Component {
   render() {
@@ -45,7 +46,7 @@ export default class OtherProducts extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={op2} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Danger Tape - Thick
               </div>
@@ -163,7 +164,7 @@ export default class OtherProducts extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={op8} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Leather Foot Protector
               </div>

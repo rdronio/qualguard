@@ -6,6 +6,7 @@ import logo from "./images/qualguard-logo.png";
 import es1 from "./images/eyewashprotection/Combination-300x300.jpg";
 import es2 from "./images/eyewashprotection/Pedestal-300x300.jpg";
 import es3 from "./images/eyewashprotection/Portable-300x300.jpg";
+import es4 from "./images/eyewashprotection/spiderkingwallmountedeyewash.JPG";
 
 export default class EyewashStation extends Component {
   render() {
@@ -92,7 +93,7 @@ export default class EyewashStation extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={es4} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Wall Mounted Eyewash
               </div>

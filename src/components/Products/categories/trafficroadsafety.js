@@ -4,13 +4,18 @@ import { Container, Segment, Grid, Image } from "semantic-ui-react";
 import logo from "./images/qualguard-logo.png";
 
 import ts1 from "./images/trafficsafety/Traffic-Cone-Plastic-1-300x300.jpg";
+import ts2 from "./images/trafficsafety/PLASTICFLOOR SIGN2SIDED.JPG";
+import ts3 from "./images/trafficsafety/TRAFFICSIGNBOARD.JPG";
 import ts4 from "./images/trafficsafety/PostLane-Circle-300x300.jpg";
 import ts5 from "./images/trafficsafety/Road-Marker-1-300x300.jpg";
 import ts6 from "./images/trafficsafety/PostLane-Rectangle-300x300.jpg";
 import ts7 from "./images/trafficsafety/Traffic-Baton-1-300x300.jpg";
+import ts8 from "./images/trafficsafety/TRAFFICGLOVES.JPG";
 import ts9 from "./images/trafficsafety/Traffic-Cone-28-1-300x300.jpg";
+import ts10 from "./images/trafficsafety/PLASTICPOSTLANEWITHCHAINS.JPG";
 
 import ts11 from "./images/trafficsafety/Road-Barrier-O-300x300.jpg";
+import ts12 from "./images/trafficsafety/newbarrierroadrunner.JPG";
 
 export default class TrafficRoadSafety extends Component {
   render() {
@@ -47,7 +52,7 @@ export default class TrafficRoadSafety extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ts2} size="small" className="product-image" />
               <div className="product-content-heading">
                 PLASTIC FLOOR SIGN (2 SIDED)
               </div>
@@ -58,7 +63,7 @@ export default class TrafficRoadSafety extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ts3} size="small" className="product-image" />
               <div className="product-content-heading">TRAFFIC SIGN BOARD</div>
             </Grid.Column>
             <Grid.Column
@@ -107,7 +112,7 @@ export default class TrafficRoadSafety extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ts8} size="small" className="product-image" />
               <div className="product-content-heading">TRAFFIC GLOVES</div>
             </Grid.Column>
             <Grid.Column
@@ -128,7 +133,7 @@ export default class TrafficRoadSafety extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ts10} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
                 PLASTIC POST LANE WITH CHAINS
@@ -164,7 +169,7 @@ export default class TrafficRoadSafety extends Component {
             >
               <Image src={ts11} size="small" className="product-image" />
               <div className="product-content-heading">
-                PLASTIC TRAFFIC CONE
+                PLASTIC ROAD BARRIER
               </div>
             </Grid.Column>
             <Grid.Column
@@ -173,9 +178,9 @@ export default class TrafficRoadSafety extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={ts12} size="small" className="product-image" />
               <div className="product-content-heading">
-                PLASTIC FLOOR SIGN (2 SIDED)
+                NEW BARRIER (ROAD RUNNER)
               </div>
             </Grid.Column>
           </Grid>

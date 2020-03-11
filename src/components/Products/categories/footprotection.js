@@ -7,8 +7,8 @@ import fp1 from "./images/footprotection/Exodus-300x300.jpg";
 import fp2 from "./images/footprotection/Genesis-300x300.jpg";
 import fp3 from "./images/footprotection/Eros-300x300.jpg";
 import fp4 from "./images/footprotection/Gaea-300x300.jpg";
-import fp5 from "./images/footprotection/Shinra-300x300.jpg";
-// import fp6 from "./images/footprotection/Exodus-300x300.jpg";
+import fp5 from "./images/footprotection/spiderkingsafetyshoes-TIDUS(Highcut).JPG";
+import fp6 from "./images/footprotection/Exodus-300x300.jpg";
 import fp7 from "./images/footprotection/Cetra-300x300.jpg";
 import fp8 from "./images/footprotection/Darius-300x300.jpg";
 import fp9 from "./images/footprotection/Neptune-300x300.jpg";
@@ -25,7 +25,11 @@ import fp19 from "./images/footprotection/Mica-300x300.jpg";
 import fp20 from "./images/footprotection/HB-ST-Y-300x300.jpg";
 import fp21 from "./images/footprotection/HB-MS-B-300x300.jpg";
 import fp22 from "./images/footprotection/RBO-Black-300x300.jpg";
-import fp23 from "./images/footprotection/RB-ST-B-300x300.jpg";
+import fp23 from "./images/footprotection/RBO-Black-300x300.jpg";
+import fp24 from "./images/footprotection/spiderkingrubberbootswosteeltoemenwhite.JPG";
+import fp25 from "./images/footprotection/spiderkingrubberbootswosteeltoemenblue.JPG";
+import fp26 from "./images/footprotection/spiderkingrubberbootswsteeltoeandmidsoleblack.JPG";
+import fp27 from "./images/footprotection/spiderkingrubberbootswsteeltoeandmidsolewhite.JPG";
 
 export default class FootProtection extends Component {
   render() {
@@ -234,7 +238,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp6} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Safety Shoes-TIDUS (High cut)
               </div>
@@ -842,7 +846,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp23} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Rubberboots w/o Steel Toe Men - White
               </div>
@@ -870,7 +874,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp24} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Rubberboots w/o Steel Toe Men - Blue
               </div>
@@ -898,7 +902,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={fp23} size="small" className="product-image" />
+              <Image src={fp25} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Rubberboots w/ Steel Toe - Black
               </div>
@@ -928,7 +932,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp26} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Rubberboots w/ Steel Toe and Mid Sole - Black
               </div>
@@ -958,7 +962,7 @@ export default class FootProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp27} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Rubberboots w/ Steel Toe - White
               </div>

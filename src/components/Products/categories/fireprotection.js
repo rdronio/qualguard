@@ -8,6 +8,8 @@ import fp2 from "./images/fireprotection/Gloves-300x300.jpg";
 import fp3 from "./images/fireprotection/Boots-300x300.jpg";
 import fp4 from "./images/fireprotection/Blanket-300x300.jpg";
 import fp5 from "./images/fireprotection/Axe-300x300.jpg";
+import fp6 from "./images/fireprotection/spiderkingfiremanshose.JPG";
+import fp7 from "./images/fireprotection/SPIDERKINGFIREMANSSUITPANTSANDJACKET.JPG";
 import fp8 from "./images/fireprotection/FX-DC-300x300.jpg";
 import fp9 from "./images/fireprotection/FX-AFFF-300x300.jpg";
 import fp10 from "./images/fireprotection/FX-HCFC-300x300.jpg";
@@ -129,7 +131,7 @@ export default class FireProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp6} size="small" className="product-image" />
               <div className="product-content-heading">
                 Spiderking Fireman's Hose
               </div>
@@ -148,7 +150,7 @@ export default class FireProtection extends Component {
               computer={5}
               className="product-content"
             >
-              <Image src={logo} size="small" className="product-image" />
+              <Image src={fp7} size="small" className="product-image" />
               <div className="product-content-heading">
                 SPIDERKING FIREMAN'S SUIT PANTS AND JACKET
               </div>
