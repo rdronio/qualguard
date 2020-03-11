@@ -553,34 +553,27 @@ export default class SafetySignages extends Component {
         <Container>
           <div className="safetysignages-container">
             <div className="safetysignages-heading"> Mining Danger Signs </div>
-            <div className="safetysignages-desc-container">
-              <div className="safetysignages-container-size">
-                <div className="safetysignages-container-size-heading">
-                  Standard Sizes
-                </div>
-                <div className="safetysignages-container-size-desc">
-                  <div> -7" x 10" </div>
-                  <div> -10" x 14"</div>
-                  <div> -14" x 20"</div>
-                </div>
-              </div>
-              <div className="safetysignages-container-print">
-                <div className="safetysignages-container-print-heading">
-                  Print
-                </div>
-                <div className="safetysignages-container-print-desc">
-                  <div> -Vinyl Waterproof Sticker (Computer Cut-Out) </div>
-                </div>
-              </div>
-              <div className="safetysignages-container-substrate">
-                <div className="safetysignages-container-substrate-heading">
-                  Subtrate Option
-                </div>
-                <div className="safetysignages-container-substrate-desc">
-                  <div> -High Performance Plastic </div>
-                  <div> -G.I. Sheet (Galvanized Metal Sheet) Aluminum </div>
-                </div>
-              </div>
+            <div className="trafficroadsafety-trafficsigns-desc">
+              We offer{" "}
+              <strong>
+                {" "}
+                Safety Tags, Lockout Tags, Repair Tags, Fire Extinguisher
+                Inspection Tags, Fire Extinguisher Tags, Maintenance Tags,
+                Inventory Tags, Inspection Tags and more.{" "}
+              </strong>{" "}
+              <br /> <br /> We offer Safety Tags, Lockout Tags, Repair Tags,
+              Fire Extinguisher Inspection Tags, Fire Extinguisher Tags,
+              Maintenance Tags, Inventory Tags, Inspection Tags and more.
+              <br /> <br />
+              Safety Tags are available in several materials , mostly notably
+              Cardstock and Plastic..
+              <br /> <br />
+              Not all Safety Tags are accident prevention related. We carry a
+              complete line of Inspections Tags. Production Control Tags and
+              Inventory Tags - each helping to make your job easier.
+              <br /> <br />
+              <strong> SIZES 3 </strong> " x 5.75" / 3" x 6.25" / 3.25 " x 6" /
+              3.S" x 6.5"
             </div>
           </div>
           <Grid stackable columns={3}>
