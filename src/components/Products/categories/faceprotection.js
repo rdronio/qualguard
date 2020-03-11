@@ -131,7 +131,7 @@ export default class FaceProtection extends Component {
             >
               <Image src={fp6} size="small" className="product-image" />
               <div className="product-content-heading">
-                Spidertcing Faceshield Visor
+                Spiderking Faceshield Visor
               </div>
               <div className="product-desc">
                 <ul>
