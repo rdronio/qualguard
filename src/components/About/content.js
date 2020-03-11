@@ -85,11 +85,9 @@ export default class Content extends Component {
             >
               <div className="mission-heading">Mission</div>
               <div className="mission-desc">
-                Our aim is to promote safety workplace and Health equipment,
-                which enables employers and organization to maintain the health,
-                safety and welfare of all employees and members of the public,
-                who may be at risk from their activities, environmentally
-                friendly products to all clients at a competitive price.
+                Our mission is to focus on safety, quality and efficiency. We
+                commit to keep your Home, Workplace, Job Sites Safe with 0%
+                Risk.
               </div>
             </Grid.Column>
             <Grid.Column
@@ -100,11 +98,8 @@ export default class Content extends Component {
             >
               <div className="vision-heading">Vision</div>
               <div className="vision-desc">
-                Our aim is to promote safety workplace and Health equipment,
-                which enables employers and organization to maintain the health,
-                safety and welfare of all employees and members of the public,
-                who may be at risk from their activities, environmentally
-                friendly products to all clients at a competitive price.
+                We envision ourselves to be the leading and most preferred PPE
+                Company. Providing premium product with quality and excellence.
               </div>
             </Grid.Column>
           </Grid>

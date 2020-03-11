@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Container, Segment } from "semantic-ui-react";
-import { Link } from "react-router-dom";
 
 // import bg_landingpage from "./images/bg_landingpage.png";
 import bg_landingpage from "../images/bg_landingpage2.png";
