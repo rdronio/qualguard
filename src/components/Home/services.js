@@ -86,37 +86,6 @@ export default class Services extends Component {
                   className="services-image-content"
                 >
                   <Image
-                    src={reliable}
-                    size="medium"
-                    className="services-image"
-                  />
-                </Grid.Column>
-                <Grid.Column
-                  mobile={16}
-                  tablet={10}
-                  computer={10}
-                  className="services-desc-content"
-                >
-                  <div>
-                    <div className="service-title"> Reliable </div>
-                    <div className="service-desc">
-                      Proven and Tested. State of the art innovation 100% Life
-                      Saving.
-                    </div>
-                  </div>
-                </Grid.Column>
-              </Grid>
-            </Grid.Column>
-
-            <Grid.Column mobile={16} tablet={16} computer={8}>
-              <Grid stackable columns={2} className="services-content">
-                <Grid.Column
-                  mobile={16}
-                  tablet={6}
-                  computer={6}
-                  className="services-image-content"
-                >
-                  <Image
                     src={competitive}
                     size="medium"
                     className="services-image"
@@ -133,6 +102,36 @@ export default class Services extends Component {
                     <div className="service-desc">
                       Offering consumers greater value, by means of lower prices
                       or by providing greater benefits and service.
+                    </div>
+                  </div>
+                </Grid.Column>
+              </Grid>
+            </Grid.Column>
+            <Grid.Column mobile={16} tablet={16} computer={8}>
+              <Grid stackable columns={2} className="services-content">
+                <Grid.Column
+                  mobile={16}
+                  tablet={6}
+                  computer={6}
+                  className="services-image-content"
+                >
+                  <Image
+                    src={reliable}
+                    size="medium"
+                    className="services-image"
+                  />
+                </Grid.Column>
+                <Grid.Column
+                  mobile={16}
+                  tablet={10}
+                  computer={10}
+                  className="services-desc-content"
+                >
+                  <div>
+                    <div className="service-title"> Reliable </div>
+                    <div className="service-desc">
+                      Proven and Tested. State of the art innovation 100% Life
+                      Saving.
                     </div>
                   </div>
                 </Grid.Column>
