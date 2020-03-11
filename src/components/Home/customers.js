@@ -2,7 +2,10 @@ import React, { Component } from "react";
 import { Container, Grid, Image, Segment } from "semantic-ui-react";
 
 import bg_landingpage from "../images/bg_landingpage.png";
-import logo from "../images/qualguard-logo.png";
+
+import corporations from "../images/corporate.png";
+import dealers from "../images/handshake.png";
+import tradingcompany from "../images/stock.png";
 
 export default class Customers extends Component {
   render() {
@@ -32,7 +35,7 @@ export default class Customers extends Component {
                     className="customers-image-content"
                   >
                     <Image
-                      src={logo}
+                      src={corporations}
                       size="medium"
                       className="customers-image"
                     />
@@ -64,7 +67,7 @@ export default class Customers extends Component {
                     className="customers-image-content"
                   >
                     <Image
-                      src={logo}
+                      src={dealers}
                       size="medium"
                       className="customers-image"
                     />
@@ -96,7 +99,7 @@ export default class Customers extends Component {
                     className="customers-image-content"
                   >
                     <Image
-                      src={logo}
+                      src={tradingcompany}
                       size="medium"
                       className="customers-image"
                     />
