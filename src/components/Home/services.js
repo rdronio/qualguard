@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import { Container, Grid, Image, Segment } from "semantic-ui-react";
 
 import logo from "../images/qualguard-logo.png";
+import quality from "../images/shield.png";
+import reliable from "../images/trust.png";
+import on_time from "../images/on-time.png";
+import professional from "../images/professional.png";
 
 export default class Services extends Component {
   render() {
@@ -17,7 +21,11 @@ export default class Services extends Component {
                   computer={6}
                   className="services-image-content"
                 >
-                  <Image src={logo} size="medium" className="services-image" />
+                  <Image
+                    src={quality}
+                    size="medium"
+                    className="services-image"
+                  />
                 </Grid.Column>
                 <Grid.Column
                   mobile={16}
@@ -26,7 +34,7 @@ export default class Services extends Component {
                   className="services-desc-content"
                 >
                   <div>
-                    <div className="service-title"> Quality </div>
+                    <div className="service-title"> We Deliver Quality </div>
                     <div className="service-desc">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -45,7 +53,11 @@ export default class Services extends Component {
                   computer={6}
                   className="services-image-content"
                 >
-                  <Image src={logo} size="medium" className="services-image" />
+                  <Image
+                    src={on_time}
+                    size="medium"
+                    className="services-image"
+                  />
                 </Grid.Column>
                 <Grid.Column
                   mobile={16}
@@ -54,7 +66,7 @@ export default class Services extends Component {
                   className="services-desc-content"
                 >
                   <div>
-                    <div className="service-title"> On Time </div>
+                    <div className="service-title"> Always On Time </div>
                     <div className="service-desc">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -76,7 +88,11 @@ export default class Services extends Component {
                   computer={6}
                   className="services-image-content"
                 >
-                  <Image src={logo} size="medium" className="services-image" />
+                  <Image
+                    src={reliable}
+                    size="medium"
+                    className="services-image"
+                  />
                 </Grid.Column>
                 <Grid.Column
                   mobile={16}
@@ -104,7 +120,11 @@ export default class Services extends Component {
                   computer={6}
                   className="services-image-content"
                 >
-                  <Image src={logo} size="medium" className="services-image" />
+                  <Image
+                    src={professional}
+                    size="medium"
+                    className="services-image"
+                  />
                 </Grid.Column>
                 <Grid.Column
                   mobile={16}
@@ -113,7 +133,7 @@ export default class Services extends Component {
                   className="services-desc-content"
                 >
                   <div>
-                    <div className="service-title"> Competitive </div>
+                    <div className="service-title"> Professional Services </div>
                     <div className="service-desc">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
