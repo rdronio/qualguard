@@ -97,6 +97,7 @@ code {
   letter-spacing: 0.5px;
   font-size: 80px;
   color: #fff;
+  line-height: 1;
 }
 .showcase-content-heading::after {
   content: "";

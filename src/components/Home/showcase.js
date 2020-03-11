@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container, Segment } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 // import bg_landingpage from "./images/bg_landingpage.png";
 import bg_landingpage from "../images/bg_landingpage2.png";
@@ -16,18 +17,19 @@ export default class Showcase extends Component {
         }}
       >
         <Container text textAlign="left" className="showcase-content">
-          <div className="showcase-content-subheading">Why QualGuard?</div>
-          <div className="showcase-content-heading">QualGuard</div>
+          {/* <div className="showcase-content-subheading">Why QualGuard?</div> */}
+          <div className="showcase-content-heading">
+            Safety <br /> Quality <br /> Efficiency <br />
+          </div>
           <div className="showcase-content-desc">
-            is committed to personal safety in the workplace, the job site and
-            the home. We recommend solutions to help you keep your business
-            compliant and your employees work-ready and safe, saving time and
-            reducing cost.
+            PROVIDING PROTECTION AND INNOVATION
           </div>
           <div className="showcase-content-button">
-            <div className="showcase-content-button-leftcontainer">
-              <a>View Products</a>
-            </div>
+            <Link to="/products">
+              <div className="showcase-content-button-leftcontainer">
+                <a>View Products</a>
+              </div>
+            </Link>
             <div className="showcase-content-button-rightcontainer">
               <a>Read More</a>
             </div>
