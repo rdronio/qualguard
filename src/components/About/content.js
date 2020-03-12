@@ -45,17 +45,52 @@ export default class Content extends Component {
                   className="president-desc-content"
                 >
                   <div className="president-title">
-                    {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.{" "}
+                    We treat our customers our family <br />
+                    <br />
+                    We believe that without our customers we are nothing, we are
+                    serious in meeting and exceeding the customer expectations
+                    regardless how easy or difficult the situation, how big or
+                    small our customers.
+                    <br />
+                    <br />
+                    We bring out the best version of our employees
+                    <br />
+                    <br />
+                    At QualGuard, we are not just after with gains, we are also
+                    in the business of transforming our people to showcase their
+                    professional ethos in all of their dealings and
+                    interactions. They seriously take ownership in their field
+                    of assignment.
+                    <br />
+                    <br />
+                    We have a strong experience and expertise
+                    <br />
+                    <br />
+                    At QualGuard, our team worked in different industries in the
+                    world. We are confident of our knowledge to build standards
+                    of excellence in the field of Safety. We adhere and embrace
+                    latest innovations and technologies to ensure the leading
+                    edge for our customers.
+                    <br />
+                    <br />
+                    I hope this gives you a glimpse to know QualGuard better!
+                    Whether you are a potential customer; could be a
+                    corporation, dealers, retailers, trading companies,
+                    distributors and agents, a supplier or a future employee, we
+                    look forward to finding out how we can work together like no
+                    other!
+                    <br />
+                    <br />
                   </div>
-                  <div className="president-desc">Pres. JM</div>
+                  <div className="president-desc">
+                    Jamel Erquiza
+                    <br />
+                  </div>
+                  <div className="president-desc-2">
+                    CEO
+                    <br />
+                    QualGuard Corporation{" "}
+                  </div>
                 </Grid.Column>
               </Grid>
             </Grid.Column>

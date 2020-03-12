@@ -402,9 +402,18 @@ code {
 
 .president-desc {
   font-family: Montserrat;
+  padding-right: 30px;
+  text-align: right;
   margin-top: 20px;
-  font-size: 18px;
   font-weight: 700;
+  font-size: 18px;
+}
+
+.president-desc-2 {
+  font-family: Montserrat;
+  padding-right: 30px;
+  text-align: right;
+  font-size: 14px;
 }
 
 .vision-heading {
