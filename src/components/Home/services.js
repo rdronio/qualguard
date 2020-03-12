@@ -5,6 +5,7 @@ import logo from "../images/qualguard-logo.png";
 import quality from "../images/shield.png";
 import reliable from "../images/trust.png";
 import on_time from "../images/on-time.png";
+import efficiency from "../images/efficiency.png";
 import competitive from "../images/competitive.png";
 
 export default class Services extends Component {
@@ -52,7 +53,7 @@ export default class Services extends Component {
                   className="services-image-content"
                 >
                   <Image
-                    src={on_time}
+                    src={efficiency}
                     size="medium"
                     className="services-image"
                   />
@@ -64,10 +65,9 @@ export default class Services extends Component {
                   className="services-desc-content"
                 >
                   <div>
-                    <div className="service-title"> On Time </div>
+                    <div className="service-title"> Efficiency </div>
                     <div className="service-desc">
-                      Meet the customers’ demands and deliver the services or
-                      products to the customers punctually.
+                      Reduce its costs and improve its competitiveness
                     </div>
                   </div>
                 </Grid.Column>

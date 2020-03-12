@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Segment, Grid, Image } from "semantic-ui-react";
 
 import president_logo from "../images/JM.png";
+import president_logo2 from "../images/JM2.png";
 
 export default class Content extends Component {
   render() {
@@ -33,7 +34,7 @@ export default class Content extends Component {
                   className="president-image-content"
                 >
                   <Image
-                    src={president_logo}
+                    src={president_logo2}
                     size="medium"
                     className="president-image"
                   />
@@ -122,7 +123,9 @@ export default class Content extends Component {
               <div className="mission-desc">
                 Our mission is to focus on safety, quality and efficiency. We
                 commit to keep your Home, Workplace, Job Sites Safe with 0%
-                Risk.
+                Risk. We are confident that we can fulfill your protection needs
+                up to your expectations coupled with a high standard of
+                services.
               </div>
             </Grid.Column>
             <Grid.Column
@@ -133,8 +136,10 @@ export default class Content extends Component {
             >
               <div className="vision-heading">Vision</div>
               <div className="vision-desc">
-                We envision ourselves to be the leading and most preferred PPE
-                Company. Providing premium product with quality and excellence.
+                We envision ourselves to be the leading and most preferred
+                Personal Protective Equipment Company by consistently procuring
+                the most useful and most relevant safety equipment that suit the
+                average of client needs.
               </div>
             </Grid.Column>
           </Grid>

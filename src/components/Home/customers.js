@@ -49,9 +49,7 @@ export default class Customers extends Component {
                     <div>
                       <div className="customers-title"> Corporations </div>
                       <div className="customers-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        Making the Most of Partnerships for Long-Term Growth.
                       </div>
                     </div>
                   </Grid.Column>
@@ -81,9 +79,8 @@ export default class Customers extends Component {
                     <div>
                       <div className="customers-title"> Dealers </div>
                       <div className="customers-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        QualGuard making the most of Partnership that offers
+                        competitive rates.
                       </div>
                     </div>
                   </Grid.Column>
@@ -125,13 +122,11 @@ export default class Customers extends Component {
           </Container>
         </Segment>
         <Container className="customers-extradesc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          QUALGUARD is a PPE company, using safety equipment is vital to avoid
+          unnecessary injury in the workplace. Choosing not to wear PPE can be
+          dangerous especially when it could save your life. Safety is important
+          and having an understanding of these various protection devices can
+          help to prevent hazardous injury.
         </Container>
       </Segment>
     );
