@@ -229,6 +229,7 @@ code {
   background: #fff;
   border-radius: 40px;
   z-index: 100;
+  min-height: 500.59px;
 }
 .customers-title {
   font-family: Bebas Neue;
@@ -372,6 +373,11 @@ code {
   border: solid 3px #000;
   color: #000 !important;
   background: #ffc425;
+  cursor: pointer;
+}
+
+.showcase-content-button-rightcontainer a:hover {
+  cursor: pointer;
 }
 
 .grid.president-content {
@@ -414,6 +420,32 @@ code {
   padding-right: 30px;
   text-align: right;
   font-size: 14px;
+}
+
+.president-title span {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.president-title span#about-qg {
+  font-size: 16px;
+  font-weight: 600;
+  /*font-style: italic;*/
+  letter-spacing: 0.75px !important;
+}
+
+.president-title strong {
+  color: #313100;
+}
+
+.president-title strong::after {
+  content: "";
+  border-bottom: 2px solid #ffc425;
+  display: block;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: -20px;
 }
 
 .vision-heading {

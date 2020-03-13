@@ -15,12 +15,11 @@ export default class Footer extends Component {
             </Grid.Column>
 
             <Grid.Column width="4">
-              <div className="footer-title"> Contact Details </div>
+              <div className="footer-title"> Contact Us </div>
               <div className="footer-desc">
                 <p>
                   {" "}
-                  info@qualguard.com <br /> +639123456789 <br /> +639123456789{" "}
-                  <br /> +639123456789
+                  info@qualguardph.com <br /> 049-521-8631 <br /> 0998-966-4964{" "}
                 </p>
               </div>
             </Grid.Column>
@@ -28,19 +27,16 @@ export default class Footer extends Component {
             <Grid.Column width="4" className="">
               <div className="footer-title"> Address </div>
               <div className="footer-desc">
-                Main: Carmelray Industrail Park 1, Unit 1, The Junction Strip
-                Mall, Carmelray Ave, Corner Wisdom Ave, Calamba, Laguna
+                Main: Unit 1A, The Junction, Carmelray Corner Wisdom, Carmelray
+                Industrial Park 1, Canlubang, Calamba, Laguna, Philippines
               </div>
             </Grid.Column>
 
             <Grid.Column width="4" className="">
               <div className="footer-title"> Office Hours </div>
               <div className="footer-desc">
-                Lorem ipsum dolor sit amet <br />
-                Lorem ipsum dolor sit amet <br />
-                Lorem ipsum dolor sit amet <br />
-                Lorem ipsum dolor sit amet <br />
-                Lorem ipsum dolor sit amet <br />
+                Monday to Friday: 8:00 AM - 5:00 PM <br />
+                Saturday and Sunday: Closed <br />
               </div>
             </Grid.Column>
           </Grid>

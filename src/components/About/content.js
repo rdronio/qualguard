@@ -46,7 +46,17 @@ export default class Content extends Component {
                   className="president-desc-content"
                 >
                   <div className="president-title">
-                    We treat our customers our family <br />
+                    <span> Welcome to QualGuard! </span>
+                    <br />
+                    <br />
+                    As you visit our website, you will get a feel how serious
+                    our company to be a trusted name in all your safety needs
+                    and requirements. <br />
+                    <br />
+                    <br />
+                    <br />
+                    <strong> We treat our customers our family </strong>
+                    <br />
                     <br />
                     We believe that without our customers we are nothing, we are
                     serious in meeting and exceeding the customer expectations
@@ -54,32 +64,41 @@ export default class Content extends Component {
                     small our customers.
                     <br />
                     <br />
-                    We bring out the best version of our employees
                     <br />
                     <br />
-                    At QualGuard, we are not just after with gains, we are also
-                    in the business of transforming our people to showcase their
-                    professional ethos in all of their dealings and
-                    interactions. They seriously take ownership in their field
-                    of assignment.
+                    <strong>
+                      We bring out the best version of our employees
+                    </strong>
                     <br />
                     <br />
-                    We have a strong experience and expertise
+                    At <span id="about-qg">QualGuard</span>, we are not just
+                    after with gains, we are also in the business of
+                    transforming our people to showcase their professional ethos
+                    in all of their dealings and interactions. They seriously
+                    take ownership in their field of assignment.
                     <br />
                     <br />
-                    At QualGuard, our team worked in different industries in the
-                    world. We are confident of our knowledge to build standards
-                    of excellence in the field of Safety. We adhere and embrace
-                    latest innovations and technologies to ensure the leading
-                    edge for our customers.
                     <br />
                     <br />
-                    I hope this gives you a glimpse to know QualGuard better!
-                    Whether you are a potential customer; could be a
-                    corporation, dealers, retailers, trading companies,
-                    distributors and agents, a supplier or a future employee, we
-                    look forward to finding out how we can work together like no
-                    other!
+                    <strong>We have a strong experience and expertise</strong>
+                    <br />
+                    <br />
+                    At <span id="about-qg">QualGuard</span>, our team worked in
+                    different industries in the world. We are confident of our
+                    knowledge to build standards of excellence in the field of
+                    Safety. We adhere and embrace latest innovations and
+                    technologies to ensure the leading edge for our customers.
+                    <br />
+                    <br />
+                    <br />
+                    <br />I hope this gives you a glimpse to know{" "}
+                    <span id="about-qg">QualGuard</span> better! Whether you are
+                    a potential customer; could be a corporation, dealers,
+                    retailers, trading companies, distributors and agents, a
+                    supplier or a future employee, we look forward to finding
+                    out how we can work together like no other!
+                    <br />
+                    <br />
                     <br />
                     <br />
                   </div>

@@ -1,9 +1,12 @@
 import React, { Component } from "react";
 import { Container, Segment } from "semantic-ui-react";
+import * as Scroll from "react-scroll";
 import { Link } from "react-router-dom";
 
 // import bg_landingpage from "./images/bg_landingpage.png";
 import bg_landingpage from "../images/bg_landingpage2.png";
+
+let Link2 = Scroll.Link;
 
 export default class Showcase extends Component {
   render() {
@@ -30,9 +33,19 @@ export default class Showcase extends Component {
                 <a>View Products</a>
               </div>
             </Link>
-            <div className="showcase-content-button-rightcontainer">
-              <a>Read More</a>
-            </div>
+            <Link2
+              activeClass="active"
+              to="services_"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="item"
+            >
+              <div className="showcase-content-button-rightcontainer">
+                <a>Read More</a>
+              </div>
+            </Link2>
           </div>
         </Container>
       </Segment>

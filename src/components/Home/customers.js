@@ -20,7 +20,7 @@ export default class Customers extends Component {
             backgroundImage: `url(${bg_landingpage})`
           }}
         >
-          <div className="customers-heading">Lorem ipsum dolor sit amet</div>
+          <div className="customers-heading">Prospective Clients</div>
         </Segment>
 
         <Segment vertical textAlign="center" className="customers-card">
@@ -110,9 +110,8 @@ export default class Customers extends Component {
                     <div>
                       <div className="customers-title"> Trading Companies </div>
                       <div className="customers-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        We provide quality products and services to build your
+                        vision and enhance your industrial living.
                       </div>
                     </div>
                   </Grid.Column>
