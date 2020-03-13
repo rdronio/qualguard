@@ -19,7 +19,8 @@ export default class Footer extends Component {
               <div className="footer-desc">
                 <p>
                   {" "}
-                  info@qualguardph.com <br /> 049-521-8631 <br /> 0998-966-4964{" "}
+                  info@qualguardph.com <br />
+                  <br /> 049-521-8631 <br /> 0998-966-4964{" "}
                 </p>
               </div>
             </Grid.Column>
