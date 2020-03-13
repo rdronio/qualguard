@@ -121,11 +121,11 @@ export default class Customers extends Component {
           </Container>
         </Segment>
         <Container className="customers-extradesc">
-          QUALGUARD is a PPE company, using safety equipment is vital to avoid
-          unnecessary injury in the workplace. Choosing not to wear PPE can be
-          dangerous especially when it could save your life. Safety is important
-          and having an understanding of these various protection devices can
-          help to prevent hazardous injury.
+          <strong>QUALGUARD</strong> is a PPE company, using safety equipment is
+          vital to avoid unnecessary injury in the workplace. Choosing not to
+          wear PPE can be dangerous especially when it could save your life.
+          Safety is important and having an understanding of these various
+          protection devices can help to prevent hazardous injury.
         </Container>
       </Segment>
     );
