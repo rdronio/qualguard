@@ -224,7 +224,7 @@ code {
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
-  padding: 80px 10px !important;
+  padding: 80px 8px !important;
   margin: 5px !important;
   background: #fff;
   border-radius: 40px;
@@ -798,6 +798,7 @@ code {
   .ui.grid .ui.stackable.grid.services-content {
     margin-left: 2rem !important;
     margin-right: 2rem !important;
+    padding: 40px !important;
   }
 
   .services-image {
@@ -808,6 +809,8 @@ code {
   .ui.grid .ui.stackable.grid.customers-content {
     margin-left: 2rem !important;
     margin-right: 2rem !important;
+    padding: 48px !important;
+    height: auto !important;
   }
 
   .customers-heading {
@@ -868,7 +871,7 @@ code {
   .ui.grid .ui.stackable.grid.services-content {
     margin-left: 1rem !important;
     margin-right: 1rem !important;
-    padding: 25px !important;
+    padding: 32px !important;
   }
 
   .customers-heading {
@@ -879,7 +882,6 @@ code {
   .ui.grid .ui.stackable.grid.customers-content {
     margin-left: 1rem !important;
     margin-right: 1rem !important;
-    padding: 40px 10px !important;
   }
 
   .customers-title {
