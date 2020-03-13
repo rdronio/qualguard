@@ -202,7 +202,7 @@ code {
 #customers_ {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 35vh;
+  height: auto;
 }
 .customers-heading {
   margin: 5%;
