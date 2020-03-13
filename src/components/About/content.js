@@ -53,8 +53,6 @@ export default class Content extends Component {
                     our company to be a trusted name in all your safety needs
                     and requirements. <br />
                     <br />
-                    <br />
-                    <br />
                     <strong> We treat our customers our family </strong>
                     <br />
                     <br />
@@ -62,8 +60,6 @@ export default class Content extends Component {
                     serious in meeting and exceeding the customer expectations
                     regardless how easy or difficult the situation, how big or
                     small our customers.
-                    <br />
-                    <br />
                     <br />
                     <br />
                     <strong>
@@ -78,8 +74,6 @@ export default class Content extends Component {
                     take ownership in their field of assignment.
                     <br />
                     <br />
-                    <br />
-                    <br />
                     <strong>We have a strong experience and expertise</strong>
                     <br />
                     <br />
@@ -89,16 +83,12 @@ export default class Content extends Component {
                     Safety. We adhere and embrace latest innovations and
                     technologies to ensure the leading edge for our customers.
                     <br />
-                    <br />
-                    <br />
                     <br />I hope this gives you a glimpse to know{" "}
                     <span id="about-qg">QualGuard</span> better! Whether you are
                     a potential customer; could be a corporation, dealers,
                     retailers, trading companies, distributors and agents, a
                     supplier or a future employee, we look forward to finding
                     out how we can work together like no other!
-                    <br />
-                    <br />
                     <br />
                     <br />
                   </div>

@@ -77,7 +77,10 @@ export default class Customers extends Component {
                     className="customers-desc-content"
                   >
                     <div>
-                      <div className="customers-title"> Dealers </div>
+                      <div className="customers-title">
+                        {" "}
+                        Dealers & Distributors
+                      </div>
                       <div className="customers-desc">
                         QualGuard making the most of Partnership that offers
                         competitive rates.
