@@ -82,8 +82,8 @@ export default class Customers extends Component {
                         Dealers & Distributors
                       </div>
                       <div className="customers-desc">
-                        QualGuard making the most of Partnership that offers
-                        competitive rates.
+                        Making the most of Partnership which results in a higher
+                        level of competitive rates.
                       </div>
                     </div>
                   </Grid.Column>

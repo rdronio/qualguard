@@ -29,22 +29,17 @@ export default class Content extends Component {
               <Grid stackable columns={2} className="president-content">
                 <Grid.Column
                   mobile={16}
-                  tablet={6}
-                  computer={6}
+                  tablet={16}
+                  computer={16}
                   className="president-image-content"
                 >
-                  <Image
-                    src={president_logo2}
-                    size="medium"
-                    className="president-image"
-                  />
-                </Grid.Column>
-                <Grid.Column
-                  mobile={16}
-                  tablet={10}
-                  computer={10}
-                  className="president-desc-content"
-                >
+                  <div className="president-image">
+                    <Image
+                      src={president_logo2}
+                      size="medium"
+                      className="president-image"
+                    />
+                  </div>
                   <div className="president-title">
                     <span> Welcome to QualGuard! </span>
                     <br />
@@ -102,6 +97,14 @@ export default class Content extends Component {
                     QualGuard Corporation{" "}
                   </div>
                 </Grid.Column>
+                {/* <Grid.Column
+                  mobile={16}
+                  tablet={10}
+                  computer={10}
+                  className="president-desc-content"
+                >
+                  
+                </Grid.Column> */}
               </Grid>
             </Grid.Column>
           </Grid>

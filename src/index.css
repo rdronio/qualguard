@@ -381,11 +381,23 @@ code {
 }
 
 .grid.president-content {
-  margin: 200px 0 !important;
+  margin: 250px 0 !important;
   box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
     0 5px 22px 4px rgba(0, 0, 0, 0.048);
   padding: 32px !important;
   border-radius: 20px;
+}
+
+.president-image {
+  margin-top: -20%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.president-image img {
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.53));
+  /* max-width: 25% !important; */
 }
 
 .president-image-content img {
@@ -443,7 +455,7 @@ code {
   content: "";
   border-bottom: 2px solid #ffc425;
   display: block;
-  width: 50%;
+  width: 30%;
   margin-top: 10px;
   margin-bottom: -20px;
 }
@@ -680,6 +692,11 @@ code {
   .header_container .right.menu {
     margin: 0 auto !important;
   }
+
+  .president-image {
+    margin-top: -25%;
+    width: 250px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -787,6 +804,10 @@ code {
     font-size: 14px;
   }
 
+  .president-image {
+    margin-top: -30%;
+  }
+
   .mission-desc,
   .vision-desc {
     font-size: 14px;
@@ -849,6 +870,11 @@ code {
 
   .president-image {
     width: 150px !important;
+    margin-top: -40%;
+  }
+
+  .president-title span:first-of-type {
+    font-size: 24px;
   }
 }
 
@@ -939,5 +965,13 @@ code {
   .mission-heading,
   .vision-heading {
     font-size: 40px;
+  }
+
+  .president-image {
+    margin-top: -70%;
+  }
+
+  .president-title span:first-of-type {
+    font-size: 16px;
   }
 }
