@@ -43,7 +43,9 @@ export default class Footer extends Component {
         </Container>
         <Container className="footer-poweredby">
           <div className="systemoph">Powered By</div>
-          <Image src={systemo} size="tiny" />
+          <a href="https://www.systemoph.com" target="_blank">
+            <Image src={systemo} size="tiny" />
+          </a>
         </Container>
       </Segment>
     );
