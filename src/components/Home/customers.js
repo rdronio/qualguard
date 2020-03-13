@@ -113,8 +113,8 @@ export default class Customers extends Component {
                     <div>
                       <div className="customers-title"> Trading Companies </div>
                       <div className="customers-desc">
-                        We provide quality products and services to build your
-                        vision and enhance your industrial living.
+                        Making the most of Partnerships reliable that can be
+                        incredibly lucrative and offer various opportunities
                       </div>
                     </div>
                   </Grid.Column>
