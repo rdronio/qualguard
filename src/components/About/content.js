@@ -3,6 +3,7 @@ import { Container, Segment, Grid, Image } from "semantic-ui-react";
 
 import president_logo from "../images/JM.png";
 import president_logo2 from "../images/JM2.png";
+import signature from "../images/signature.png";
 
 export default class Content extends Component {
   render() {
@@ -88,6 +89,11 @@ export default class Content extends Component {
                     <br />
                   </div>
                   <div className="president-desc">
+                    <Image
+                      src={signature}
+                      size="small"
+                      className="signature-image"
+                    />
                     Jamel Erquiza
                     <br />
                   </div>
