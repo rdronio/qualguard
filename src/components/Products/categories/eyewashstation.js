@@ -82,7 +82,7 @@ export default class EyewashStation extends Component {
                   <li> 16-gallon, Gravity-fed eyewash </li>
                   <li> Pinch-valve for positive water flow </li>
                   <li> Retractable table tray for easy use </li>
-                  <li> Made from ABS (Acrylonitrile butadiene styrene) </li>
+                  <li> Made from ABS (Acrylonitrile Butadiene Styrene) </li>
                   <li> Includes mounting brackets </li>
                 </ul>
               </div>

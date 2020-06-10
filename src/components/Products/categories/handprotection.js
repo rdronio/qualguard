@@ -149,7 +149,7 @@ export default class HandProtection extends Component {
                     Maximum Dexterity
                   </li>
                   <li> Nylon Spandex fiber gloves </li>
-                  <li> Microfoam Nltrlle coated Palm and fingers </li>
+                  <li> Micro foam Nitrile coated Palm and fingers </li>
                   <li> Ventilated back </li>
                   <li> Rating: 4 1 3 2 </li>
                   <li> CE EN 388 Compliant </li>

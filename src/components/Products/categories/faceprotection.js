@@ -75,7 +75,7 @@ export default class FaceProtection extends Component {
                 <ul>
                   <li> Heavy-duty, Impact Resistant </li>
                   <li> Safety helmet attachment </li>
-                  <li> Made from ABS (Acrylonitrile butadiene styrene) </li>
+                  <li> Made from ABS (Acrylonitrile Butadiene Styrene) </li>
                   <li> CE EN 166 Compliant </li>
                   <li> ANSI Z89.1 Compliant </li>
                 </ul>
@@ -117,7 +117,7 @@ export default class FaceProtection extends Component {
                 <ul>
                   <li> Heavy-duty, Impact Resistant </li>
                   <li> Ratchet type locking mechanism </li>
-                  <li> Made from ABS (Acrylonitrile butadiene styrene) </li>
+                  <li> Made from ABS (Acrylonitrile Butadiene Styrene) </li>
                   <li> CE EN 166 Compliant </li>
                   <li> ANSI Z89.1 Compliant </li>
                 </ul>

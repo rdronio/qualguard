@@ -159,7 +159,7 @@ export default class FireProtection extends Component {
                   <li> Heavy duty, High Visibility </li>
                   <li> Jacket and Trousers </li>
                   <li> Fire resistant, heat insulating and water resistant </li>
-                  <li> Made from Nomex®Material </li>
+                  <li> Made from Nomex ® Material </li>
                   <li> High visibility reflector </li>
                   <li> Available: l -layer, 3-layer </li>
                 </ul>
@@ -234,9 +234,9 @@ export default class FireProtection extends Component {
                   <li> Wide vision full face mask </li>
                   <li>
                     {" "}
-                    Backplate, carrying harness, pnuematic system reducer with
-                    integrated cylinder connecter pressure guage, whistle and
-                    demand valve Includes Polyethyline carrying case{" "}
+                    Backplate, carrying harness, pneumatic system reducer with
+                    integrated cylinder connecter pressure gauge, whistle and
+                    demand valve Includes Polyethylene carrying case{" "}
                   </li>
                 </ul>
               </div>

@@ -84,10 +84,10 @@ export default class BodyProtection extends Component {
               </div>
               <div className="product-desc">
                 <ul>
-                  <li> Hi-visibility, Ligh tweight, Durable </li>
+                  <li> Hi-visibility, Lightweight, Durable </li>
                   <li> 2" width laminated reflector </li>
                   <li> Heavy duty polyester fabric </li>
-                  <li> Meshnet design </li>
+                  <li> Mesh net design </li>
                   <li> Color: Green and Orange </li>
                   <li> CE EN 471 Compliant </li>
                 </ul>
@@ -246,7 +246,7 @@ export default class BodyProtection extends Component {
                 <ul>
                   <li> Heavy duty, Lightweight </li>
                   <li> Water resistant coat </li>
-                  <li> 5 guage thickness </li>
+                  <li> 5-gauge thickness </li>
                   <li> Material: PVC </li>
                   <li> Color: Yellow, Fatigue Green </li>
                 </ul>
@@ -266,7 +266,7 @@ export default class BodyProtection extends Component {
                 <ul>
                   <li> Heavy duty, Lightweight </li>
                   <li> Water resistant coat </li>
-                  <li> 8 guage thickness </li>
+                  <li> 8-gauge thickness </li>
                   <li> Material: Nylon </li>
                   <li> Color: Yellow, Fatigue Green </li>
                 </ul>
@@ -286,7 +286,7 @@ export default class BodyProtection extends Component {
                 <ul>
                   <li> Heavy duty, Lightweight </li>
                   <li> Water resistant coat </li>
-                  <li> 8 guage thickness </li>
+                  <li> 8-gauge thickness </li>
                   <li> Available material and color: </li>
                   <li> PVC - Orange and Fatigue green </li>
                   <li> Nylon - Yellow </li>
@@ -307,7 +307,7 @@ export default class BodyProtection extends Component {
                 <ul>
                   <li> Heavy duty, Lightweight </li>
                   <li> Water resistant coat </li>
-                  <li> 8 guage thickness </li>
+                  <li> 8-gauge thickness </li>
                   <li> Available material and color: </li>
                   <li> PVC - Orange and Fatigue green </li>
                   <li> Nylon - Yellow </li>
