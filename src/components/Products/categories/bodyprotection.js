@@ -66,7 +66,7 @@ export default class BodyProtection extends Component {
                   <li> Heavy duty, high quality </li>
                   <li> 80% Cotton 20% Polyester </li>
                   <li> Breathable and Comfortable </li>
-                  <li> 7 " width silver reflector </li>
+                  <li> 1 " width silver reflector </li>
                   <li> Color: Navy Blue, Orange </li>
                   <li> We accept customized color and design </li>
                 </ul>
@@ -89,7 +89,7 @@ export default class BodyProtection extends Component {
                   <li> Heavy duty polyester fabric </li>
                   <li> Meshnet design </li>
                   <li> Color: Green and Orange </li>
-                  <li> CE EN 477 Compliant </li>
+                  <li> CE EN 471 Compliant </li>
                 </ul>
               </div>
             </Grid.Column>
@@ -110,7 +110,7 @@ export default class BodyProtection extends Component {
                   <li> Adjustable side straps </li>
                   <li> Heavy duty buckles </li>
                   <li> Color: Green and Orange </li>
-                  <li> CE EN 477 Compliant </li>
+                  <li> CE EN 471 Compliant </li>
                 </ul>
               </div>
             </Grid.Column>
@@ -130,7 +130,7 @@ export default class BodyProtection extends Component {
                   <li> 2" width laminated reflector </li>
                   <li> Heavy duty polyester fabric </li>
                   <li> Color: Green and Orange </li>
-                  <li> CE EN 477 Compliant </li>
+                  <li> CE EN 471 Compliant </li>
                 </ul>
               </div>
             </Grid.Column>
@@ -142,7 +142,7 @@ export default class BodyProtection extends Component {
             >
               <Image src={bp6} size="small" className="product-image" />
               <div className="product-content-heading">
-                Spiderking Safety Vest Fabric without piping
+                Spiderking Safety Vest Fabric without Piping
               </div>
               <div className="product-desc">
                 <ul>
@@ -150,7 +150,7 @@ export default class BodyProtection extends Component {
                   <li> 2" width laminated reflector </li>
                   <li> Heavy duty polyester fabric </li>
                   <li> Color: Green and Orange </li>
-                  <li> CE EN 477 Compliant </li>
+                  <li> CE EN 471 Compliant </li>
                 </ul>
               </div>
             </Grid.Column>

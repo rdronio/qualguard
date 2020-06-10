@@ -60,7 +60,7 @@ export default class FireProtection extends Component {
                   <li> Heavy duty, High Visibility </li>
                   <li> Fire resistant and heat insulating fabric </li>
                   <li> Leather palm and fingers for extra protection </li>
-                  <li> High visibil ity reflector </li>
+                  <li> High visibility reflector </li>
                 </ul>
               </div>
             </Grid.Column>

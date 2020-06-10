@@ -96,7 +96,7 @@ export default class HeadProtection extends Component {
             >
               <Image src={hp4} size="small" className="product-image" />
               <div className="product-content-heading">
-                Spiderking Full Brim Hard Hat
+                Spiderking Full Brim Hardhat
               </div>
               <div className="product-desc">
                 <ul>
@@ -137,7 +137,7 @@ export default class HeadProtection extends Component {
             >
               <Image src={hp6} size="small" className="product-image" />
               <div className="product-content-heading">
-                Spiderking Head Suspension Ratchet Type
+                Spiderking Head Suspension Rachet Type
               </div>
               <div className="product-desc">
                 <ul>

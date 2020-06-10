@@ -172,7 +172,7 @@ export default class HandProtection extends Component {
                   <li> Z-pattern grip and Cotton flocklined </li>
                   <li>
                     {" "}
-                    Protection against solvents, oll, fats and bleaching
+                    Protection against solvents, oil, fats and bleaching
                     chemical agents{" "}
                   </li>
                   <li> 12 pairs / polybag </li>
@@ -191,7 +191,7 @@ export default class HandProtection extends Component {
               </div>
               <div className="product-desc">
                 <ul>
-                  <li> High-Grad e, Heavy Duty </li>
+                  <li> High-Grade, Heavy Duty </li>
                   <li>
                     {" "}
                     Protection from chemical resistant, chlorinated solutions,
@@ -220,7 +220,6 @@ export default class HandProtection extends Component {
                   <li> Elastic natural cotton material </li>
                   <li> Color: Gray </li>
                   <li> One size fits all </li>
-                  <li> 700 Grams </li>
                   <li> 700 Grams </li>
                 </ul>
               </div>

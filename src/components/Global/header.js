@@ -21,7 +21,7 @@ export default class Header extends Component {
             </Menu.Item>
 
             <Menu.Menu className="right_header" position="right">
-              <Link to="/home">
+              <Link to="/">
                 <Menu.Item
                   name="editorials"
                   active={activeItem === "editorials"}

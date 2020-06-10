@@ -25,7 +25,7 @@ export default class FaceProtection extends Component {
             >
               <Image src={fp1} size="small" className="product-image" />
               <div className="product-content-heading">
-                Spiderking Welding Mask with Bracket
+                Spiderking Welding Mask With Bracket
               </div>
               <div className="product-desc">
                 <ul>
@@ -75,7 +75,7 @@ export default class FaceProtection extends Component {
                 <ul>
                   <li> Heavy-duty, Impact Resistant </li>
                   <li> Safety helmet attachment </li>
-                  <li> Made from ABS [Acrylonitrile butadiene styrene) </li>
+                  <li> Made from ABS (Acrylonitrile butadiene styrene) </li>
                   <li> CE EN 166 Compliant </li>
                   <li> ANSI Z89.1 Compliant </li>
                 </ul>
@@ -89,7 +89,7 @@ export default class FaceProtection extends Component {
             >
               <Image src={fp4} size="small" className="product-image" />
               <div className="product-content-heading">
-                Spiderking Welding Mask, Rachel Type - Heavy Medium
+                Spiderking Welding Mask, Rachel Type-Heavy Medium
               </div>
               <div className="product-desc">
                 <ul>

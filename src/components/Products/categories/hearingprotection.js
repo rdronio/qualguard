@@ -78,7 +78,7 @@ export default class HearingProtection extends Component {
                   <li> Safely helmet attachment </li>
                   <li> Adjustable padded earcups </li>
                   <li> ABS Earcups, PVC Leather with foam filler </li>
-                  <li> Noise Reduction Rating (NRR): 28dB </li>
+                  <li> Noise Reduction Rating (NRR): 23dB </li>
                   <li> Colors: Blue, Black </li>
                   <li> CE EN 352.1 Compliant </li>
                   <li> ANSI S3.19 Compliant </li>

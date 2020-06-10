@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route, BrowserRouter } from "react-router-dom";
+import { Switch, Route, BrowserRouter, HashRouter } from "react-router-dom";
 import "./App.css";
 
 import "semantic-ui-css/semantic.min.css";
@@ -12,14 +12,14 @@ import About from "./components/Pages/About";
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
-        <Route path="/" exact component={Home}></Route>
-        <Route path="/home" exact component={Home}></Route>
-        <Route path="/products" exact component={Products}></Route>
-        <Route path="/about" exact component={About}></Route>
+        <Route exact path="/" component={Home}></Route>
+        {/* <Route path="/home" exact component={Home}></Route> */}
+        <Route path="/products" component={Products}></Route>
+        <Route path="/about" component={About}></Route>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

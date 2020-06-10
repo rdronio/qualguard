@@ -31,7 +31,7 @@ export default class RespiratoryProtection extends Component {
             >
               <Image src={rp1} size="small" className="product-image" />
               <div className="product-content-heading">
-                Spiderking- N95 with Valve Dust Mask
+                Spiderking-N95 with Valve Dust Mask
               </div>
               <div className="product-desc">
                 <ul>
@@ -195,7 +195,7 @@ export default class RespiratoryProtection extends Component {
                     headband reinforcement{" "}
                   </li>
                   <li> Cartridge sold separately </li>
-                  <li> CE EN 136:1998 Class 2 compliant </li>
+                  <li> CE EN 140:1998 Compliant </li>
                 </ul>
               </div>
             </Grid.Column>

@@ -358,7 +358,7 @@ export default class FootProtection extends Component {
               </div>
               <div className="product-desc">
                 <ul>
-                  <li> Sole: EVNRubber </li>
+                  <li> Sole: EVA/RUBBER </li>
                   <li> Toecap: Composite </li>
                   <li> Midsole: Kevlar </li>
                   <li> Size Range: US 6-12 (UK 38-46) </li>
@@ -396,7 +396,7 @@ export default class FootProtection extends Component {
               </div>
               <div className="product-desc">
                 <ul>
-                  <li> Sole: EVNRubber </li>
+                  <li> Sole: EVA/RUBBER </li>
                   <li> Toecap: Composite </li>
                   <li> Midsole: Kevlar </li>
                   <li> Size Range: US 6-12 (UK 38-46) </li>
@@ -548,7 +548,7 @@ export default class FootProtection extends Component {
               </div>
               <div className="product-desc">
                 <ul>
-                  <li> Sole: EVNRubber </li>
+                  <li> Sole: EVA/RUBBER </li>
                   <li> Toecap: Steel </li>
                   <li> Midsole: Steel </li>
                   <li> Size Range: US 6-12 (UK 38-46) </li>

@@ -6,7 +6,7 @@ import logo from "./images/qualguard-logo.png";
 import fp1 from "./images/fallprotection/spiderkingfullbodyharnesswithbacksupport.JPG";
 import fp2 from "./images/fallprotection/4D-300x300.jpg";
 import fp3 from "./images/fallprotection/1D-300x300.jpg";
-import fp4 from "./images/fallprotection/1D-300x300.jpg";
+import fp4 from "./images/fallprotection/2Lanyard-300x300.jpg";
 import fp5 from "./images/fallprotection/1Lanyard-300x300.jpg";
 import fp6 from "./images/fallprotection/spk-single-lanyard-rope-type-900x900-300x300.png";
 import fp7 from "./images/fallprotection/Lifeline-300x300.jpg";
@@ -173,7 +173,7 @@ export default class FallProtection extends Component {
                 <ul>
                   <li> Heavy duty </li>
                   <li> Fall arrester or restraint</li>
-                  <li> Nylon rope with l big hook and carabiner </li>
+                  <li> Nylon rope with 1 big hook and carabiner </li>
                   <li> Length: 25m </li>
                   <li> CE EN 354 Compliant </li>
                 </ul>
@@ -219,8 +219,8 @@ export default class FallProtection extends Component {
                   <li> Heavy duty </li>
                   <li> Wing type design </li>
                   <li> Guided fall arrester for rope </li>
-                  <li> Design for l 6mm rope </li>
-                  <li> Weight capacity l 00kg </li>
+                  <li> Design for 16mm rope </li>
+                  <li> Weight capacity 100kg </li>
                   <li> Made from steel </li>
                   <li> CE EN 354 Compliant </li>
                 </ul>
