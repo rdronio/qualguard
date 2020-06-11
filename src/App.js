@@ -14,8 +14,8 @@ const App: React.FC = () => {
   return (
     <HashRouter>
       <Switch>
-        {/* <Route exact path="/" component={Home}></Route> */}
-        <Route path="/home" exact component={Home}></Route>
+        <Route exact path="/" component={Home}></Route>
+        {/* <Route path="/home" exact component={Home}></Route> */}
         <Route path="/products" component={Products}></Route>
         <Route path="/about" component={About}></Route>
       </Switch>
