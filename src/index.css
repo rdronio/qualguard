@@ -1,10 +1,11 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Ubuntu", "Cantarell", "Bebas Neue", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* text-transform: uppercase; */
 }
 
 code {
@@ -39,7 +40,7 @@ code {
 /***** Header ******/
 
 .right_header .item {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   border-radius: 0 !important;
   font-size: 20px;
   height: 100%;
@@ -85,7 +86,7 @@ code {
   justify-content: center;
 }
 .showcase-content-subheading {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   letter-spacing: 0.5px;
   margin-bottom: -25px;
   font-size: 40px;
@@ -93,7 +94,7 @@ code {
 }
 
 .showcase-content-heading {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   letter-spacing: 5px;
   font-size: 80px;
   color: #fff;
@@ -122,7 +123,7 @@ code {
 }
 
 .showcase-content-button-leftcontainer {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   margin-right: 10px;
 }
 .showcase-content-button-leftcontainer a {
@@ -137,7 +138,7 @@ code {
 }
 
 .showcase-content-button-rightcontainer {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
 }
 .showcase-content-button-rightcontainer a {
   padding: 10px 20px;
@@ -162,7 +163,7 @@ code {
 }
 
 .service-title {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   line-height: 1;
   text-align: left;
   font-size: 30px;
@@ -206,7 +207,7 @@ code {
 }
 .customers-heading {
   margin: 5%;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   line-height: 1;
   font-size: 100px;
   color: #fff;
@@ -232,7 +233,7 @@ code {
   min-height: 500.59px;
 }
 .customers-title {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   text-align: center;
   font-size: 30px;
   color: #313100;
@@ -279,7 +280,7 @@ code {
 }
 
 .footer-title {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   letter-spacing: 1.5px;
   text-align: left;
   line-height: 1;
@@ -303,7 +304,7 @@ code {
 
 .systemoph {
   display: flex;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   align-items: center;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -330,7 +331,7 @@ code {
 }
 
 .showcase-aboutus-content-heading {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   letter-spacing: 0.5px;
   font-size: 120px;
   color: #fff;
@@ -355,7 +356,7 @@ code {
 }
 
 .mission-heading {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   font-size: 50px;
   padding: 20px 0;
   color: #313100;
@@ -467,7 +468,7 @@ code {
 }
 
 .vision-heading {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   font-size: 50px;
   padding: 20px 0;
   color: #313100;
@@ -508,7 +509,7 @@ code {
 }
 
 .showcase-products-content-heading {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   letter-spacing: 0.5px;
   font-size: 120px;
   color: #fff;
@@ -540,7 +541,7 @@ code {
 }
 
 .product-content-categories-heading {
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   line-height: 1;
   font-size: 26px;
   padding: 20px;
@@ -556,7 +557,7 @@ code {
 .product-content-categories button {
   background: #313100;
   padding: 10px 40px;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   color: #fff !important;
   font-size: 18px;
   letter-spacing: 1.5px;
@@ -571,7 +572,7 @@ code {
 
 .product {
   margin: 80px 0 40px 0 !important;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   font-size: 40px;
   text-align: left;
   line-height: 1;
@@ -591,9 +592,10 @@ code {
 .product-content-heading {
   color: #313100;
   padding-top: 35px;
-  font-family: Bebas Neue;
+  font-family: "Fira Sans Condensed";
   line-height: 1.1;
-  font-size: 32px;
+  font-size: 24px;
+  font-weight: 600;
   text-align: left;
 }
 .product-desc ul {
@@ -624,7 +626,7 @@ code {
 
 .trafficroadsafety-trafficsigns-heading {
   font-size: 30px;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   margin-bottom: 20px;
 }
 
@@ -642,7 +644,7 @@ code {
 
 .safetysignages-heading {
   font-size: 35px;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
@@ -650,7 +652,7 @@ code {
 .safetysignages-heading-product {
   font-size: 25px;
   text-align: left;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   color: #313100;
   margin: 35px;
 }
@@ -669,7 +671,7 @@ code {
 .safetysignages-container-print-heading,
 .safetysignages-container-substrate-heading {
   margin-top: 20px;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue";
   font-size: 24px;
 }
 
