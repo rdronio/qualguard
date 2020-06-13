@@ -23,31 +23,34 @@ export default class Header extends Component {
             <Menu.Menu className="right_header" position="right">
               <Link to="/">
                 <Menu.Item
-                  name="editorials"
-                  active={activeItem === "editorials"}
+                  name="home"
+                  active={activeItem === "home"}
                   onClick={this.handleItemClick}
                 >
                   Home
+                  {/* <Link to="/">Home</Link> */}
                 </Menu.Item>
               </Link>
 
               <Link to="/products">
                 <Menu.Item
-                  name="reviews"
-                  active={activeItem === "reviews"}
+                  name="products"
+                  active={activeItem === "products"}
                   onClick={this.handleItemClick}
                 >
                   Products
+                  {/* <Link to="/products">Products</Link> */}
                 </Menu.Item>
               </Link>
 
               <Link to="/about">
                 <Menu.Item
-                  name="upcomingEvents"
-                  active={activeItem === "upcomingEvents"}
+                  name="about"
+                  active={activeItem === "about"}
                   onClick={this.handleItemClick}
                 >
                   About
+                  {/* <Link to="/about">About</Link> */}
                 </Menu.Item>
               </Link>
             </Menu.Menu>

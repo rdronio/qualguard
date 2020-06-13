@@ -599,7 +599,7 @@ code {
   text-align: left;
 }
 .product-desc ul {
-  padding: 0px !important;
+  padding: 0 0 0 20px !important;
   font-family: Montserrat;
   /* list-style: none; */
   line-height: 1.5;
@@ -626,7 +626,7 @@ code {
 
 .trafficroadsafety-trafficsigns-heading {
   font-size: 30px;
-  font-family: "Bebas Neue";
+  font-family: "Fira Sans Condensed";
   margin-bottom: 20px;
 }
 
@@ -671,7 +671,7 @@ code {
 .safetysignages-container-print-heading,
 .safetysignages-container-substrate-heading {
   margin-top: 20px;
-  font-family: "Bebas Neue";
+  font-family: "Fira Sans Condensed";
   font-size: 24px;
 }
 

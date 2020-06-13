@@ -43,7 +43,7 @@ export default class TrafficRoadSafety extends Component {
             >
               <Image src={ts1} size="small" className="product-image" />
               <div className="product-content-heading">
-                PLASTIC TRAFFIC CONE
+                Plastic Traffic Cone
               </div>
             </Grid.Column>
             <Grid.Column
@@ -54,7 +54,7 @@ export default class TrafficRoadSafety extends Component {
             >
               <Image src={ts2} size="small" className="product-image" />
               <div className="product-content-heading">
-                PLASTIC FLOOR SIGN (2 SIDED)
+                Plastic Floor Sign (2 Sided)
               </div>
             </Grid.Column>
             <Grid.Column
@@ -64,7 +64,7 @@ export default class TrafficRoadSafety extends Component {
               className="product-content"
             >
               <Image src={ts3} size="small" className="product-image" />
-              <div className="product-content-heading">TRAFFIC SIGN BOARD</div>
+              <div className="product-content-heading">Traffic Sign Board</div>
             </Grid.Column>
             <Grid.Column
               mobile={16}
@@ -74,7 +74,7 @@ export default class TrafficRoadSafety extends Component {
             >
               <Image src={ts4} size="small" className="product-image" />
               <div className="product-content-heading">
-                POST LANES WITH EMBLEM (CIRCLE)
+                Post Lanes with Emblem (Circle)
               </div>
             </Grid.Column>
             <Grid.Column
@@ -84,7 +84,7 @@ export default class TrafficRoadSafety extends Component {
               className="product-content"
             >
               <Image src={ts5} size="small" className="product-image" />
-              <div className="product-content-heading">PLASTIC ROAD MARKER</div>
+              <div className="product-content-heading">Plastic Road Marker</div>
             </Grid.Column>
             <Grid.Column
               mobile={16}
@@ -94,7 +94,7 @@ export default class TrafficRoadSafety extends Component {
             >
               <Image src={ts6} size="small" className="product-image" />
               <div className="product-content-heading">
-                POST LANES WITH EMBLEM (SQUARE)
+                Post Lanes with Emblem (Square)
               </div>
             </Grid.Column>
             <Grid.Column
@@ -104,7 +104,7 @@ export default class TrafficRoadSafety extends Component {
               className="product-content"
             >
               <Image src={ts7} size="small" className="product-image" />
-              <div className="product-content-heading">TRAFFIC BATON</div>
+              <div className="product-content-heading">Traffic Baton</div>
             </Grid.Column>
             <Grid.Column
               mobile={16}
@@ -113,7 +113,7 @@ export default class TrafficRoadSafety extends Component {
               className="product-content"
             >
               <Image src={ts8} size="small" className="product-image" />
-              <div className="product-content-heading">TRAFFIC GLOVES</div>
+              <div className="product-content-heading">Traffic Gloves</div>
             </Grid.Column>
             <Grid.Column
               mobile={16}
@@ -124,7 +124,7 @@ export default class TrafficRoadSafety extends Component {
               <Image src={ts9} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
-                TRAFFIC CONE RUBBERIZED WITH REFLECTOR
+                Traffic Cone Rubberized with Reflector
               </div>
             </Grid.Column>
             <Grid.Column
@@ -136,7 +136,7 @@ export default class TrafficRoadSafety extends Component {
               <Image src={ts10} size="small" className="product-image" />
               <div className="product-content-heading">
                 {" "}
-                PLASTIC POST LANE WITH CHAINS
+                Plastic Post Lane with Chains
               </div>
             </Grid.Column>
           </Grid>
@@ -169,7 +169,7 @@ export default class TrafficRoadSafety extends Component {
             >
               <Image src={ts11} size="small" className="product-image" />
               <div className="product-content-heading">
-                PLASTIC ROAD BARRIER
+                Plastic Road Barrier
               </div>
             </Grid.Column>
             <Grid.Column
@@ -180,7 +180,7 @@ export default class TrafficRoadSafety extends Component {
             >
               <Image src={ts12} size="small" className="product-image" />
               <div className="product-content-heading">
-                NEW BARRIER (ROAD RUNNER)
+                New Barrier (Road Runner)
               </div>
             </Grid.Column>
           </Grid>

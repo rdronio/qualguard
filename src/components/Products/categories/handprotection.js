@@ -590,7 +590,7 @@ export default class HandProtection extends Component {
             >
               <Image src={hp26} size="small" className="product-image" />
               <div className="product-content-heading">
-                Spiderking TIG Welding Gloves
+                Spiderking Tig Welding Gloves
               </div>
               <div className="product-desc">
                 <ul>

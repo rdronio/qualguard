@@ -572,8 +572,8 @@ export default class SafetySignages extends Component {
               complete line of Inspections Tags. Production Control Tags and
               Inventory Tags - each helping to make your job easier.
               <br /> <br />
-              <strong> SIZES 3 </strong> " x 5.75" / 3" x 6.25" / 3.25 " x 6" /
-              3.S" x 6.5"
+              <strong> Sizes </strong> 3" x 5.75" / 3" x 6.25" / 3.25" x 6" /
+              3.5" x 6.5"
             </div>
           </div>
           <Grid stackable columns={3}>

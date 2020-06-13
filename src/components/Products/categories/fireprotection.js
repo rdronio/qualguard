@@ -152,7 +152,7 @@ export default class FireProtection extends Component {
             >
               <Image src={fp7} size="small" className="product-image" />
               <div className="product-content-heading">
-                SPIDERKING FIREMAN'S SUIT PANTS AND JACKET
+                Spiderking Fireman's Suit Pants and Jacket
               </div>
               <div className="product-desc">
                 <ul>
@@ -225,7 +225,7 @@ export default class FireProtection extends Component {
             >
               <Image src={fp11} size="small" className="product-image" />
               <div className="product-content-heading">
-                SPIDERKING SCBA / BREATHING APPARATUS
+                Spiderking SCBA / Breathing Apparatus
               </div>
               <div className="product-desc">
                 <ul>
