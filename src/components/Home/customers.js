@@ -48,7 +48,7 @@ export default class Customers extends Component {
                   >
                     <div>
                       <div className="customers-title"> Agents </div>
-                      <div className="customers-desc"></div>
+                      {/* <div className="customers-desc"></div> */}
                     </div>
                   </Grid.Column>
                 </Grid>
@@ -76,7 +76,7 @@ export default class Customers extends Component {
                   >
                     <div>
                       <div className="customers-title"> Trading Companies</div>
-                      <div className="customers-desc"></div>
+                      {/* <div className="customers-desc"></div> */}
                     </div>
                   </Grid.Column>
                 </Grid>
@@ -104,7 +104,7 @@ export default class Customers extends Component {
                   >
                     <div>
                       <div className="customers-title"> Corporations </div>
-                      <div className="customers-desc"></div>
+                      {/* <div className="customers-desc"></div> */}
                     </div>
                   </Grid.Column>
                 </Grid>
@@ -114,9 +114,9 @@ export default class Customers extends Component {
         </Segment>
         <Container className="customers-extradesc">
           <strong>Qualguard Corporation</strong> is a company that engages in
-          trading and manufacturing of premium personal protective equipment. We
-          are committed to excellence in keeping our customers safe at all times
-          and equipping them from head to toe.
+          trading and manufacturing of premium personal protective equipment.
+          <br /> We are committed to excellence in keeping our customers safe at
+          all times and equipping them from head to toe.
         </Container>
       </Segment>
     );
