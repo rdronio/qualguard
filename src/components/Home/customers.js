@@ -17,10 +17,10 @@ export default class Customers extends Component {
           vertical
           textAlign="center"
           style={{
-            backgroundImage: `url(${bg_landingpage})`
+            backgroundImage: `url(${bg_landingpage})`,
           }}
         >
-          <div className="customers-heading">Prospective Clients</div>
+          <div className="customers-heading">Track Records</div>
         </Segment>
 
         <Segment vertical textAlign="center" className="customers-card">
@@ -47,44 +47,8 @@ export default class Customers extends Component {
                     className="customers-desc-content"
                   >
                     <div>
-                      <div className="customers-title"> Corporations </div>
-                      <div className="customers-desc">
-                        Making the Most of Partnerships for Long-Term Growth.
-                      </div>
-                    </div>
-                  </Grid.Column>
-                </Grid>
-              </Grid.Column>
-
-              <Grid.Column mobile={16} tablet={16} computer={5}>
-                <Grid stackable columns={2} className="customers-content">
-                  <Grid.Column
-                    mobile={16}
-                    tablet={6}
-                    computer={6}
-                    className="customers-image-content"
-                  >
-                    <Image
-                      src={dealers}
-                      size="medium"
-                      className="customers-image"
-                    />
-                  </Grid.Column>
-                  <Grid.Column
-                    mobile={16}
-                    tablet={10}
-                    computer={10}
-                    className="customers-desc-content"
-                  >
-                    <div>
-                      <div className="customers-title">
-                        {" "}
-                        Dealers & Distributors
-                      </div>
-                      <div className="customers-desc">
-                        Making the most of Partnership which results in a higher
-                        level of competitive rates.
-                      </div>
+                      <div className="customers-title"> Agents </div>
+                      {/* <div className="customers-desc"></div> */}
                     </div>
                   </Grid.Column>
                 </Grid>
@@ -111,11 +75,36 @@ export default class Customers extends Component {
                     className="customers-desc-content"
                   >
                     <div>
-                      <div className="customers-title"> Trading Companies </div>
-                      <div className="customers-desc">
-                        Making the most of Partnerships reliable that can be
-                        incredibly lucrative and offer various opportunities
-                      </div>
+                      <div className="customers-title"> Trading Companies</div>
+                      {/* <div className="customers-desc"></div> */}
+                    </div>
+                  </Grid.Column>
+                </Grid>
+              </Grid.Column>
+
+              <Grid.Column mobile={16} tablet={16} computer={5}>
+                <Grid stackable columns={2} className="customers-content">
+                  <Grid.Column
+                    mobile={16}
+                    tablet={6}
+                    computer={6}
+                    className="customers-image-content"
+                  >
+                    <Image
+                      src={dealers}
+                      size="medium"
+                      className="customers-image"
+                    />
+                  </Grid.Column>
+                  <Grid.Column
+                    mobile={16}
+                    tablet={10}
+                    computer={10}
+                    className="customers-desc-content"
+                  >
+                    <div>
+                      <div className="customers-title"> Corporations </div>
+                      {/* <div className="customers-desc"></div> */}
                     </div>
                   </Grid.Column>
                 </Grid>
@@ -124,11 +113,10 @@ export default class Customers extends Component {
           </Container>
         </Segment>
         <Container className="customers-extradesc">
-          <strong>QUALGUARD</strong> is a PPE company, using safety equipment is
-          vital to avoid unnecessary injury in the workplace. Choosing not to
-          wear PPE can be dangerous especially when it could save your life.
-          Safety is important and having an understanding of these various
-          protection devices can help to prevent hazardous injury.
+          <strong>Qualguard Corporation</strong> is a company that engages in
+          trading and manufacturing of premium personal protective equipment.
+          <br /> We are committed to excellence in keeping our customers safe at
+          all times and equipping them from head to toe.
         </Container>
       </Segment>
     );

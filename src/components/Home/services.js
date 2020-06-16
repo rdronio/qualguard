@@ -37,7 +37,8 @@ export default class Services extends Component {
                   <div>
                     <div className="service-title"> Quality </div>
                     <div className="service-desc">
-                      Providing Premium, High-Quality Products and Services.
+                      Guaranteed in achieving uniformity, providing strict and
+                      consistent commitment to standards.
                     </div>
                   </div>
                 </Grid.Column>
@@ -67,7 +68,8 @@ export default class Services extends Component {
                   <div>
                     <div className="service-title"> Efficiency </div>
                     <div className="service-desc">
-                      Reduce its costs and improve its competitiveness
+                      Produced cost-effective products with a high sense of
+                      quality and productivity.
                     </div>
                   </div>
                 </Grid.Column>
@@ -130,8 +132,8 @@ export default class Services extends Component {
                   <div>
                     <div className="service-title"> Reliable </div>
                     <div className="service-desc">
-                      Proven and Tested. State of the art innovation 100% Life
-                      Saving.
+                      Engineered and tested the products to warrant its
+                      dependability and consistency.
                     </div>
                   </div>
                 </Grid.Column>

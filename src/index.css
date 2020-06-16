@@ -225,6 +225,7 @@ code {
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
+  justify-content: center !important;
   padding: 80px 8px !important;
   margin: 5px !important;
   background: #fff;
